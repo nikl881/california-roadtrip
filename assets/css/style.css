@@ -82,16 +82,15 @@ btn-primary{
 }
 
 .input-field1{
-    font-family:'Overlock', cursive;
     position: absolute;
     color:white;
     margin-left: 400px; 
-    margin-top: 225px;
+    margin-top: 200px;
     
 }
 
 .input-field1 a{
-    font-family:'Overlock', cursive;
+    font-family:'Overlock';
     color:white;
     font-size: 20px; 
     
@@ -99,7 +98,7 @@ btn-primary{
 }
 
 .input-field1 h2{
-    font-family:'Overlock', cursive;
+    font-family:'Overlock';
     color:white;
     margin-bottom: 20px; 
     
@@ -107,7 +106,7 @@ btn-primary{
 }
 
 .input-field2{
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock';
     position: absolute;
     color:white;
     margin-left: 400px; 
@@ -116,21 +115,21 @@ btn-primary{
 }
 
 .input-field2 a{
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock';
     color:white;
     font-size: 20px;
     
 }
 
 .input-field2 h2{
-    font-family: 'Overlock', cursive;
+    font-family: 'Overlock';
     color:white;
     margin-bottom: 20px; 
     
 }
 
 
-.button {
+#button {
     width: 70px;
     height: 72px;
     padding: 9px 0;
@@ -151,7 +150,7 @@ btn-primary{
 
 
 
-.button2 {
+#button2 {
     width: 140px;
     height: 40px;
     padding: 10px 0;
@@ -170,24 +169,26 @@ btn-primary{
 }
 
 
-button:active{
-    background:#fed01b;
+#button:active{
+    background:#ffad33;
     
 }
 
-button2:active{
-    background:#fed01b;
+#button2:active{
+    background:#ffad33;
     color:black;
 }
 
-button:focus{
-    background:#fed01b;
+#button:focus{
+    background:#ffad33;
      color:black;
 }
 
-button2:focus{
-    background:#fed01b;
+#button2:focus{
+    background:#ffad33;
+    
 }
+
 
 .startpoint{
     font-size: 20px; 
@@ -203,9 +204,8 @@ button2:focus{
     z-index: 99;
 }
 
-
 .transbox {
-    height: 150px; 
+    height: 120px; 
     width: 300px ;
     color: white;
     background-color: #101010; 
@@ -224,6 +224,6 @@ button2:focus{
 }
 
 .transbox h3 {
- margin: 5px
+ margin: 7px
 
 }
