@@ -1,6 +1,4 @@
 
-
-
 var directionsDisplay = new google.maps.DirectionsRenderer();
 
 var directionsService = new google.maps.DirectionsService();
@@ -16,7 +14,7 @@ var mapOptions = {
     
 }; 
 
-map = new google.maps.Map(document.getElementById('map2'), mapOptions); 
+map = new google.maps.Map(document.getElementById('map'), mapOptions); 
 
 
 directionsDisplay.setMap(map) ; 
