@@ -192,6 +192,7 @@ btn-primary{
 
 .startpoint{
     font-size: 20px; 
+    padding-top: 10px;  
 }
 
 .poi-img{
@@ -237,4 +238,5 @@ btn-primary{
 
 .background_splash{
     position: absolute; 
+    margin-left: 400px;
 }

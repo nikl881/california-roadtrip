@@ -1,11 +1,13 @@
- function initMap() {
+function initMap() {
      
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 34.052235, lng: -118.243683},
           zoom: 7,
           styles: 
           
-[
+
+          
+          [
   {
     "elementType": "geometry",
     "stylers": [
@@ -74,23 +76,6 @@
     ]
   },
   {
-    "featureType": "administrative.neighborhood",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
     "featureType": "poi",
     "elementType": "labels.text.fill",
     "stylers": [
@@ -132,15 +117,6 @@
     "stylers": [
       {
         "color": "#2c2c2c"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels",
-    "stylers": [
-      {
-        "visibility": "off"
       }
     ]
   },
@@ -209,15 +185,6 @@
   },
   {
     "featureType": "water",
-    "elementType": "labels.text",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -225,20 +192,16 @@
       }
     ]
   }
-
 ]
 });
+     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    
+    var locations = [
+        { lat: 37.338207, lng: -121.886330 },
+        { lat: 34.052235, lng: -118.243683},
+        { lat: 32.415211, lng: -117.085600 }
+    ];
+
       }
-
-    var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-    });
-
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-
-
+      
+      

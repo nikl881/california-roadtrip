@@ -9,7 +9,7 @@
     <title>California roadtrip</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+    </head>
 <body>
    
     <div class="container-fluid">
@@ -17,16 +17,12 @@
       
     <div class="data-container">
     <div class="col-md-6 bgimg" style="background-color:black;">
-      
-    
-      
-    <div class="main-logo">
-    <img src="nortway.png" alt="main logo">
-    </div>  
-    
 
-    
-  <div class="input-field1"
+    <div class="main-logo">
+    <img src="assets/css/images/nortway.png" alt="main logo">
+    </div>  
+
+  <div class="input-field1">
   <p class="test1">
   <h2>California Roadtrip</h2>
   <a>this trip is based on highlights from California
@@ -41,273 +37,56 @@
   <p><b>North</b> to <b>South</b> is selected</p>
   </div>  
  
-    </div>
+  </div>
     
     
-    <div class="input-field2"
-  <p class="test1">
-  <h2>Three routes</h2>
-  <a>we have selected three possible routes with different
-  locations and accomodations.</a>
+  <div class="input-field2"
+     <p class="test1">
+      <h2>Three routes</h2>
+        <a>we have selected three possible routes with different
+          locations and accomodations.</a>
   </p>
   
-  <button id="button2">short</button>
-  <button id="button2">medium</button>
-  <button id="button2">long</button>
+      <button id="button2">short</button>
+      <button id="button2">medium</button>
+      <button id="button2">long</button>
   
-  
+       </div>
+    
+      <img src="assets/css/images/background_new.png">
     </div>
-    
-    <img src="background_new.png">
-    
 </div>
-</div>
-
-
-  
 
 
 
     <div class="col-md-6" style="background-color:black;">
-      
-     
       <div class="poi-img">
-       <img src="demo_img.jpeg" class="rounded float-right" alt="test">
+       <img src="assets/css/images/demo_img.jpeg" class="rounded float-right" alt="test">
        </div>      
        
+  
+        <div class="transbox">
+          <h3>Day 01 - McKinleyville</h3>
+           <p>This is some text that is placed in the transparent box.This is some text that is placed in the transparent box.</p>
+          </div>
        
        
-      <div class="transbox">
-      <h3>Day 01 - McKinleyville</h3>
-     <p>This is some text that is placed in the transparent box.This is some text that is placed in the transparent box.</p>
-      </div>
-       
-       
-       
-       <div id="map">
-         
-         
-
-      </div>
-    
+           <div id="map">
+        </div>
+      
     <script>
-      function initMap() {
-     
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 34.052235, lng: -118.243683},
-          zoom: 7,
-          styles: 
-          
-          [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#212121"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#212121"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.country",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.locality",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#bdbdbd"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#181818"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#1b1b1b"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#2c2c2c"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#8a8a8a"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#373737"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#3c3c3c"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#4e4e4e"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "transit",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#000000"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#3d3d3d"
-      }
-    ]
-  }
-]
-});
-     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    var locations = [
-        { lat: 37.338207, lng: -121.886330 },
-        { lat: 34.052235, lng: -118.243683},
-        { lat: 32.415211, lng: -117.085600 }
-    ];
-
-      }
-    </script>
     
+
+    
+    
+    
+    </script>
     
     
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiZj7AFVqjXUrtS3PwZg4rrkzdICAMYt4&callback=initMap"
     async defer></script>
-    
-    
-    
+
     </div> 
-
-
-
-
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaqH60ocg-PUI8aZ9Rkad5RgJr-MaEB_M&callback=initMap"></script>
@@ -317,7 +96,8 @@
 
 <footer>
       <div class="col-md-12" style="background-color:black;">
-      <img src="logo_footer.png">
+      <img src="assets/css/images/logo_footer.png">
       </div>
+      
 </footer>
 </html>
