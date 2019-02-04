@@ -33,7 +33,9 @@
 }
 
 #map {
-    min-height: 800px;
+   height: 800px;
+   position: relative; 
+
 }
 
 .map-container-2{
@@ -83,7 +85,7 @@ btn-primary{
     font-family:'Overlock', cursive;
     position: absolute;
     color:white;
-    margin-left: 470px; 
+    margin-left: 400px; 
     margin-top: 225px;
     
 }
@@ -91,6 +93,15 @@ btn-primary{
 .input-field1 a{
     font-family:'Overlock', cursive;
     color:white;
+    font-size: 20px; 
+    
+    
+}
+
+.input-field1 h2{
+    font-family:'Overlock', cursive;
+    color:white;
+    margin-bottom: 20px; 
     
     
 }
@@ -99,7 +110,7 @@ btn-primary{
     font-family: 'Overlock', cursive;
     position: absolute;
     color:white;
-    margin-left: 470px; 
+    margin-left: 400px; 
     margin-top: 525px;
     
 }
@@ -107,18 +118,26 @@ btn-primary{
 .input-field2 a{
     font-family: 'Overlock', cursive;
     color:white;
+    font-size: 20px;
+    
+}
+
+.input-field2 h2{
+    font-family: 'Overlock', cursive;
+    color:white;
+    margin-bottom: 20px; 
     
 }
 
 
 .button {
-    width: 60px;
-    height: 62px;
+    width: 70px;
+    height: 72px;
     padding: 9px 0;
     margin: 5px;
     border-radius: 50%;
     font-size: 30px;
-    font-weight: bold; 
+    font-weight: 900; 
     line-height: 7px;
     text-align: center;
     color: #000;
@@ -133,7 +152,7 @@ btn-primary{
 
 
 .button2 {
-    width: 100px;
+    width: 140px;
     height: 40px;
     padding: 10px 0;
     border-radius: 12px;
@@ -172,4 +191,39 @@ button2:focus{
 
 .startpoint{
     font-size: 20px; 
+}
+
+.poi-img{
+    margin-top: 20px; 
+    margin-left: 570px; 
+    border-radius: 50%;
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    z-index: 99;
+}
+
+
+.transbox {
+    height: 150px; 
+    width: 300px ;
+    color: white;
+    background-color: #101010; 
+    opacity: 0.8;
+    margin-left: 570px; 
+    margin-top: 225px; 
+    position: absolute;
+    left: 10px; 
+    z-index: 99; 
+
+}
+
+.transbox p {
+ margin: 5px
+
+}
+
+.transbox h3 {
+ margin: 5px
+
 }
