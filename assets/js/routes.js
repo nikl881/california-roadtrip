@@ -1,3 +1,6 @@
+
+
+
 var directionsDisplay = new google.maps.DirectionsRenderer();
 
 var directionsService = new google.maps.DirectionsService();
@@ -8,12 +11,12 @@ var sanfrancisco = new google.maps.LatLng(37.770280, -122.445810);
 var sandiego = new google.maps.LatLng(32.601436, -117.307416); 
 
 var mapOptions = {
-    zoom: 14,
+    zoom: 7,
     center: sanfrancisco
     
 }; 
 
-map = new google.maps.Map(document.getElementById('map'), mapOptions); 
+map = new google.maps.Map(document.getElementById('map2'), mapOptions); 
 
 
 directionsDisplay.setMap(map) ; 
