@@ -227,3 +227,14 @@ btn-primary{
  margin: 7px
 
 }
+
+
+.button_splash{
+    position: relative; 
+    margin-left: 45%; 
+
+}
+
+.background_splash{
+    position: absolute; 
+}
