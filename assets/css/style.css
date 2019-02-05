@@ -80,7 +80,6 @@ btn-primary{
 .main-logo img{
     position: absolute;
 
-
 }
 
 .input-field1{
@@ -96,14 +95,12 @@ btn-primary{
     color:white;
     font-size: 20px; 
     
-    
 }
 
 .input-field1 h2{
     font-family:'Overlock';
     color:white;
     margin-bottom: 20px; 
-    
     
 }
 
@@ -150,8 +147,6 @@ btn-primary{
     -o-transition: all 0.35s ease-in-out;
 }
 
-
-
 #button2 {
     width: 140px;
     height: 40px;
@@ -169,7 +164,6 @@ btn-primary{
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 
 #button:active{
     background:#ffad33;
@@ -190,7 +184,6 @@ btn-primary{
     background:#ffad33;
     
 }
-
 
 .startpoint{
     font-size: 20px; 
@@ -218,7 +211,6 @@ btn-primary{
     position: absolute;
     left: 10px; 
     z-index: 99; 
-
 }
 
 .transbox p {
@@ -231,30 +223,7 @@ btn-primary{
 
 }
 
+.splash-bg {
+  background-image: url("splashscreen1.png");
 
-.button_splash{
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-}
-
-.background_splash{
-  background-image: url('images/splashscreen1.png'); 
-
-
-}
-
-.footer-button{
-    font-family: 'Overlock';
-    margin-bottom: 40px; 
-    color: grey;
-    width: 30px;
-    height: 10px;
-    padding: 10px 0;
-    border-radius: 10px;
-    font-size: 12px;
-    border-color: grey; 
-    
 }

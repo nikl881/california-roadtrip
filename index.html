@@ -1,41 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <script src="assets/js/maps.js"></script>
-    
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-    <title>California Roadtrip</title>
-    </head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
-    <body>
-    
-  
-   
-      <div class="background_splash">
-          
-           <div class="testbox">
-           <p>HOI HOI</p>
-       </div>
-          
-       <img src="assets/css/images/splashscreen1.png"> 
-       
-      
-     
- 
-      <a class="button_splash" href="app.html" role="button">Click here to prepare your CA trip</a>
- 
-  
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("assets/css/images/splashscreen1.png");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+</style>
+
+
+</head>
 <body>
+
+<div class="bgimg-1">
+  <div class="caption">
+   
+
+    <form action="app.html">
+    <input type="submit" value="Click here to start" />
+    </form>
+   
+   
+  </div>
+</div>
+
+    <script src="assets/js/test.js"></script>
+    <img id="bigpic" src="bigpic" />
+    <button onclick="picture()">Enlarge</button>
+
+</body>
 </html>
+
+
