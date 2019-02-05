@@ -54,6 +54,8 @@ position:absolute;
 
 btn-primary{
     height: 40%; 
+    background-color: grey; 
+    color: grey;
 }
 
 .logo-class{
@@ -242,4 +244,17 @@ position: absolute;
   background-image: url('images/splashscreen1.png'); 
 
 
+}
+
+.footer-button{
+    font-family: 'Overlock';
+    margin-bottom: 40px; 
+    color: grey;
+    width: 30px;
+    height: 10px;
+    padding: 10px 0;
+    border-radius: 10px;
+    font-size: 12px;
+    border-color: grey; 
+    
 }

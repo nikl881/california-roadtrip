@@ -5,8 +5,6 @@ function initMap() {
           zoom: 7,
           styles: 
           
-
-          
           [
   {
     "elementType": "geometry",
@@ -194,14 +192,7 @@ function initMap() {
   }
 ]
 });
-     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-    var locations = [
-        { lat: 37.338207, lng: -121.886330 },
-        { lat: 34.052235, lng: -118.243683},
-        { lat: 32.415211, lng: -117.085600 }
-    ];
-
-      }
+ }
       
       
