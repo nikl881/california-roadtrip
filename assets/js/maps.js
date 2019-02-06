@@ -1,11 +1,15 @@
-function initMap() {
-     
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 34.052235, lng: -118.243683},
-          zoom: 7,
-          styles: 
-          
-          [
+$(document).ready(function() {
+  var directionsService = new google.maps.DirectionsService(); 
+  var directionsDisplay = new google.maps.DirectionsRenderer(); 
+  
+  function initMap() { 
+    var chicago = new google.maps.LatLng(41.850033, -87.6500523); 
+    var mapOptions = {
+    zoom: 7,
+    center: chicago,
+    styles:    
+    
+    [
   {
     "elementType": "geometry",
     "stylers": [
@@ -191,8 +195,34 @@ function initMap() {
     ]
   }
 ]
-});
 
- }
+
+}
+  
+  
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
+  directionsDisplay.setMap(map); 
+  } 
+  
+  function calcRoute(start, end) { 
+    var request = {
+      origin: start, 
+      destination: end, 
+      travelMode: "DRIVING"
+    }; 
+    
+    directionsService.route(request, function(result, status) {
+    if (status == "OK") {
+      directionsDisplay.setDirections(result); 
+    }
+    });
+    }
+    
+    initMap();
+    
+    $("#button-n").on("click", () => {
+      console.log("clicked...");
       
-      
+      calcRoute("chicago, il", "st louis, mo");
+    }); 
+}); 
