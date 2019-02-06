@@ -227,3 +227,23 @@ btn-primary{
   background-image: url("splashscreen1.png");
 
 }
+
+.testjsdiv{
+    margin-top: 350px; 
+    color: black;
+}
+
+#return{
+    margin-left: 20px; 
+}
+
+#return a{
+    color: grey; 
+
+}
+
+.btn-primary.active{
+    background-color: orange;
+    font-family: 'Overlock';
+    font-size: 20px; 
+}
