@@ -128,7 +128,26 @@ btn-primary{
 }
 
 
-#button {
+#button-s {
+    width: 70px;
+    height: 72px;
+    padding: 9px 0;
+    margin: 5px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 900; 
+    line-height: 7px;
+    text-align: center;
+    color: #000;
+    background: grey;
+    border-color: grey; 
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#button-n {
     width: 70px;
     height: 72px;
     padding: 9px 0;
@@ -154,8 +173,6 @@ btn-primary{
     padding: 10px 0;
     border-radius: 12px;
     font-size: 18px;
-    border-radius: 15px;
-    text-align: center;
     margin-right: 140px;
     color: #000;
     font-weight: bold; 
@@ -177,6 +194,13 @@ btn-primary{
      color:black;
 }
 
+#button-n{
+    background:#ffad33;
+     color:black;
+}
+
+
+
 
 
 .startpoint{
@@ -185,7 +209,7 @@ btn-primary{
 }
 
 .poi-img{
-    margin-top: 20px; 
+    margin-top: 15px; 
     margin-left: 570px; 
     border-radius: 50%;
     position: absolute;
@@ -207,11 +231,13 @@ btn-primary{
 }
 
 .transbox p {
+ font-family: 'Overlock';
  margin: 5px
 
 }
 
 .transbox h3 {
+ font-family: 'Overlock';
  margin: 7px
 
 }
@@ -222,7 +248,7 @@ btn-primary{
 }
 
 .testjsdiv{
-    margin-top: 330px; 
+    margin-top: 350px; 
     color: black;
 }
 
@@ -242,7 +268,3 @@ btn-primary{
     font-size: 20px; 
 }
 
-.testwerkje{
-    background-color: red; 
-    color:red;
-}
