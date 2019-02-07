@@ -3,7 +3,7 @@ $(document).ready(function() {
   var directionsDisplay = new google.maps.DirectionsRenderer(); 
   
   function initMap() { 
-    var chicago = new google.maps.LatLng(41.850033, -87.6500523); 
+    var chicago = new google.maps.LatLng(34.070938, -118.393768); 
     var mapOptions = {
     zoom: 7,
     center: chicago,
@@ -224,5 +224,15 @@ $(document).ready(function() {
       console.log("clicked...");
       
       calcRoute("chicago, il", "st louis, mo");
+      
+    })
+      
+        $("#button-s").on("click", () => {
+      console.log("clicked...");
+      
+      calcRoute("st louis, mo", "chicago, il");
+      
+      
+      
     }); 
 }); 
