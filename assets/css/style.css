@@ -91,21 +91,21 @@ btn-primary{
 }
 
 .input-field1 p{
-    font-family:'Overlock';
+    font-family:'Overlock', sans-serif;
     color:white;
     font-size: 20px; 
     
 }
 
 .input-field1 h2{
-    font-family:'Overlock';
+    font-family:'Overlock' sans-serif;
     color:white;
     margin-bottom: 20px; 
     
 }
 
 .input-field2{
-    font-family: 'Overlock';
+    font-family: 'Overlock', sans-serif;
     position: absolute;
     color:white;
     margin-left: 400px; 
@@ -114,14 +114,14 @@ btn-primary{
 }
 
 .input-field2 p{
-    font-family: 'Overlock';
+    font-family: 'Overlock', sans-serif;
     color:white;
     font-size: 20px;
     
 }
 
 .input-field2 h2{
-    font-family: 'Overlock';
+    font-family: 'Overlock', sans-serif;
     color:white;
     margin-bottom: 20px; 
     
@@ -130,11 +130,11 @@ btn-primary{
 
 #button-s {
     width: 70px;
-    height: 72px;
+    height: 70px;
     padding: 9px 0;
     margin: 5px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 900; 
     line-height: 7px;
     text-align: center;
@@ -149,11 +149,11 @@ btn-primary{
 
 #button-n {
     width: 70px;
-    height: 72px;
+    height: 70px;
     padding: 9px 0;
     margin: 5px;
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 900; 
     line-height: 7px;
     text-align: center;
