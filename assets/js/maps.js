@@ -223,14 +223,14 @@ $(document).ready(function() {
     $("#button-n").on("click", () => {
       console.log("clicked...");
       
-      calcRoute("chicago, il", "st louis, mo");
+      calcRoute("los angeles, ca", "san diego, ca");
       
     })
       
         $("#button-s").on("click", () => {
       console.log("clicked...");
       
-      calcRoute("st louis, mo", "chicago, il");
+      calcRoute("san diego, ca", "los angeles, ca");
       
       
       

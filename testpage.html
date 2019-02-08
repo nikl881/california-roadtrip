@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test jquery</title>
+    
+
+</head>
+<body>
+    
+    <h2>Jquery image open/close test</h2>
+  
+    <div>
+    <input type="button" id="buttontest" value="Show/Hide 1">
+    <a href="assets/css/images/image1.png"><img src="assets/css/images/image1.png" border="0" width="100" height="100" alt="image1"  target="nowa_strona" id="LogoTest" </a>
+    <br>
+    
+ <script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous">
+ </script>
+		
+
+    <script>
+    $('#buttontest').on("click",function(e)
+    {  
+     $('#LogoTest').toggle();
+    });
+    
+
+     </script>
+</div>  
+
+
+</body>
+</html>
