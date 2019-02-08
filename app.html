@@ -87,36 +87,36 @@
     <img id="bigpic3" src="bigpic3" />
     </div>
     
-    <div>
-    <input type="button" id="buttontest" value="Show/Hide 1">
-    <a href="assets/css/images/image1.png"><img src="assets/css/images/image1.png" border="0" width="100" height="100" alt="image1"  target="nowa_strona" id="LogoTest" </a>
-    <br>
-    
- <script
-	src="https://code.jquery.com/jquery-3.3.1.js"
-	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-	crossorigin="anonymous">
- </script>
-		
-
-    <script>
-    $('#buttontest').on("click",function(e)
-    {  
-     $('#LogoTest').toggle();
-    });
-    
-
-     </script>
-</div>  
-    
-    
       
         <div class="transbox">
           <h3>Preview your stay!</h3>
            <p>Below you can see a preview of the finest selected locations in California on your roadtrip.
            Start first with the style selector and then click on the image to see more info.</p>
-          </div>
+    
+    
+    <!--Temp test html and js script concerning open/close image with jquery button-->       
 
+    <div>
+    <input type="button" id="buttontest" value="Open and close image">
+    <img src="assets/css/images/image1.png" border="0" width="100" height="100" alt="image1"  target="nowa_strona" id="LogoTest" </a>
+    <br>
+    <script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous">
+     </script>
+    <script>
+    $('#buttontest').on("click",function(e)
+    {  
+     $('#LogoTest').toggle();
+    });
+    </script>
+    </div> 
+    
+    <!--End of temp html and js script-->   
+    
+    
+    </div>
            <div id="map">
         </div>
     
