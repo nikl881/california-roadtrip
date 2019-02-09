@@ -2,7 +2,10 @@ function picture1(){
         var pic = "assets/css/images/demo_img0.jpg"
         document.getElementById('bigpic1' ).src = pic.replace('90x90', '225x225');
         
-        
+        $('buttontest').on("click",function(e)
+        {  
+         $('#buttontest').toggle();
+         });
 
         }
         

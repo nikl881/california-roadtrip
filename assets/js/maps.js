@@ -269,7 +269,7 @@ $(document).ready(function() {
         $("#button-c").on("click", () => {
       console.log("clicked...");
       
-      calcRoute("beverly hills, ca", "corona, ca");  
+      calcRoute("beverly hills, ca", "lake forest, ca");  
       
     
     }); 
