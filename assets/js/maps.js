@@ -2,11 +2,17 @@ $(document).ready(function() {
   var directionsService = new google.maps.DirectionsService(); 
   var directionsDisplay = new google.maps.DirectionsRenderer(); 
   
+
+    
+  
   function initMap() { 
     var chicago = new google.maps.LatLng(34.070938, -118.393768); 
     var mapOptions = {
     zoom: 7,
     center: chicago,
+    
+    
+    
     styles:    
     
     [
@@ -220,19 +226,55 @@ $(document).ready(function() {
     
     initMap();
     
-    $("#button-n").on("click", () => {
+    $("#button-a").on("click", () => {
+      console.log("clicked...");
+      
+      calcRoute("santa barbara, ca", "san diego, ca");
+      
+    })
+      
+        $("#button-a").on("click", () => {
+      console.log("clicked...");
+      
+      calcRoute("san diego, ca", "los angeles, ca");
+      
+      
+    }); 
+    
+    
+     initMap();
+    
+    $("#button-b").on("click", () => {
       console.log("clicked...");
       
       calcRoute("los angeles, ca", "san diego, ca");
       
     })
       
-        $("#button-s").on("click", () => {
+        $("#button-b").on("click", () => {
       console.log("clicked...");
       
       calcRoute("san diego, ca", "los angeles, ca");
       
       
+     initMap();
+    
+    $("#button-c").on("click", () => {
+      console.log("clicked...");
       
+      calcRoute("los angeles, ca", "san diego, ca");
+      
+    })
+      
+        $("#button-c").on("click", () => {
+      console.log("clicked...");
+      
+      calcRoute("beverly hills, ca", "corona, ca");  
+      
+    
     }); 
+    
+    });    
+    
+    
 }); 
