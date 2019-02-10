@@ -134,6 +134,22 @@ btn-primary{
     
 }
 
+.warning{
+    border-bottom-color: red;
+    margin-top: 400px; 
+    margin-left: 500px;
+    height: 100px; 
+    width: 100px;
+    position: absolute; 
+    color: white; 
+    
+}
+
+.bgimg-1{
+    position: relative; 
+}
+
+
 /*--------------------------------------------Button default style*/
 
 #button-a {
@@ -248,6 +264,31 @@ btn-primary{
 }
 
 
+#button2: active{
+     background:#ffad33;
+}
+
+#button2: focus{
+     background:#ffad33;
+}
+
+#buttontest-2: active{
+     background:#ffad33;
+}
+
+#buttontest-2: focus{
+     background:#ffad33;
+}
+
+#buttontest-3: active{
+     background:#ffad33;
+}
+
+#buttontest-3: focus{
+     background:#ffad33;
+}
+
+
 .startpoint{
     font-size: 20px; 
     padding-top: 10px;  
@@ -273,6 +314,7 @@ btn-primary{
     position: absolute;
     left: 10px; 
     z-index: 99; 
+
 }
 
 .transbox p {
@@ -320,9 +362,7 @@ btn-primary{
 
 /*--------------------------------------------Temp and testing*/
 
-.testtuinhuis{
-    
-}
+
 
 .testtuinhuis h5 {
      fontsize:15px; 
@@ -340,3 +380,18 @@ btn-primary{
 } 
 
 
+/*--------------------------------------------Media Queries*/
+
+@media screen and (max-width:800px) {
+    .col-md-6 {display:none,}
+
+    
+}
+
+@media screen and (max-width:800px) {
+    .btn-primary.active {display:none}
+}
+
+@media screen and (min-width:800px) {
+    .warning {display:none}
+}
