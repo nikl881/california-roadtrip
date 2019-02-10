@@ -1,4 +1,3 @@
-![alt text](https://nikl881.github.io/california-roadtrip/assets/css/images/readme.png "California")
 
 ![alt text 1](https://raw.githubusercontent.com/nikl881/california-roadtrip/assets/css/images/readme.png)
 
