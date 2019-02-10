@@ -98,10 +98,13 @@
     <!--Temp test html and js script concerning open/close image with jquery button-->       
 
     <div class="testtuinhuis">
-    <input type="button" id="buttontest" value="Open and close image">
-    <img src="assets/css/images/image1.png" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest" </a>
-    <p>Dit is een demo text die bij het tuinhuisje hoort.</p>
+
+    <div id="btn1" class="button"><img src="assets/css/images/image1.png" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest" </a><a href="#">More..</a></div>
+    <p id="p1">Paragraph 1</p>
     
+    
+    
+
     <br>
     <script
 	src="https://code.jquery.com/jquery-3.3.1.js"
@@ -111,12 +114,25 @@
     <script>
     $('#buttontest').on("click",function(e)
     {  
+       $("LogoTest").hide();
+        
+        
      $('#LogoTest').toggle();
+   
     });
+    
+    $(document).ready(function () {
+
+    $("p").hide();
+
+    $("#btn1").click(function(){
+         $("#p1").toggle();
+    });
+    });
+    
     </script>
     </div> 
  
-    
     <!--End of temp html and js script-->   
     
     
