@@ -1,11 +1,11 @@
+![Welcome](https://california-roadtrip-nikl.c9users.io/assets/css/images/readme.png)
 
-![This is the head of the new readme file](https://nikl881.github.io/california_roadtrip/assets/css/images/readme.png "Logo Full 1")
+This is the readme file of a Single Page Application, or Single Page Interface (from now on abbreviated to S.P.E.), called 'California Roadtrip'. This webapplication provides people a set of usefull information to prepare their holiday roadtrip to California, US. 
+The website can show the user information about routes and locations (Google Maps, Google Places) and choises between a variation of accomodations in different price and luxury level's. 
+The design is focused on transparency and a simple, attractive usable interface.
 
-Concerns the readme file of a Single Page Application, called 'Nortways - California Roadtrip'. This webapplication provides people a set of usefull preperation information to their roadtrip in California, US. 
-The website can show the user information about routes and locations (Google Maps, Google Places) and a choises between a variation of accomodations in differnt catagory's. 
 
-
-This project concerns the second official assignment at Code Institute (see more at www.codeinstitute.net). 
+This project concerns the second official assignment at Code Institute (see more about Code Institute at www.codeinstitute.net). 
 
 Niels de Klerk (february, 2019)
 
@@ -13,13 +13,14 @@ Niels de Klerk (february, 2019)
 ## UX perspective 
 
 User stories, as an important part of the UX design, are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, 
-usually a user or customer of the system. In a random order a list of important user stories has been drawn up bellow: 
+usually a user or customer of the system. In a random order a list of important user stories has been drawn up bellow from the perspective of the specific user that we aim for: 
 
-*	As a (first time) visitor of the website, I want to see directly what kind of website I’m looking at; 
-*	As a prospect, I want to see clearly what kind of services Nortstack delivers. I’m expecting to see relevant information without searching through the website; 
-*	As a IT recruiter, searching projects for clients, I want to see relevant information about services and people behind the company. 
-*	As a (co-)owner of the company, I want to use the website as an digital business card. I need the website to be in line of the corporate identity, and also be available for good use of mobile devices (responsive design); 
-*	As a prospect/customer/visitor, I want to find some contact information about the company, i.e. email-addresses and location of the office.  
+*	I want to see directly what kind of website I’m looking at; 
+*	I want to see what the main goal of the website is (defined by differtend indicators); 
+*	I want to easely use the mechanics of the website and see what the result is of clicking trough the highlighted content or event handling options; 
+*	I want to possibility to easely return to a previous state within the workflow of the website;
+*	I want to see marks, highlighted buttons or other indicators that can show the results of single or multiple actions that i take on the website; 
+
 
 In the following link additional information concerning the UX/UI design can be found. 
 This includes wireframes and mockups and basic images for the branddesign: 
@@ -28,30 +29,27 @@ https://drive.google.com/drive/folders/1PtXtJduz-PELMQiYZTIpvAgPSXKjqaYd?usp=sha
 
 ## Features
 
-Existing Features (week 1 - 2019) 
+Existing Features (week 6 - 2019) 
 
-*	Main feature 1 -  short corporate video- allows users to see a few minutes video about the services of Nortstack by clicking on the video link in the center container of the index.html page. 
-*	Main feature 2 - menu navigation - allows users to enter specific places of the website, by using the navigation buttons with descriptions of different parts of the website. It's also possible to navigate backwards easily.
-*	Main feature 3 - footer icon links – give a quick and easy access to all social media environments that Nortstack represents. 
-*	Feature mainpage – video / Introduction video  
-*	Feature mainpage – Text / Introduction text 
-*	Feature about – General information about owners of the company seperated in two text areas. Allows users to see general  background information. 
-*	Feature about – Full width image with photo styling. 
-*	Feature cases –  Cases / headlines / basis imageblok and layout styling for cases page (basic layout only). 
-*	Feature contact - Basic form implemented with no further function. Currently for layout purpose only. 
-*	Feature contact – Basic adres information with location map image, styled in general company identity. 
+*	Main feature 1 - A splited SPE with a left frame for data, input fields, eventhandling and images, and on the right a rendered map in the specific UX/UI design of the project; 
+*	Main feature 2 - Integrated Google Places API, Google Maps JavaScript API, Directions API, Maps Embed API to load specific routes on the map
+*	Main feature 3 - Preselected routes defined that relies on the mentioned API's; 
+*	Main feature 4 - Accomodations data and images available using JQuery; 
+*	Feature UX/UI 1 – Splashscreen with specific UX/UI design as starting point and access to the SPE. 
+*	Feature UX/UI 2 – Easy and clear dark/grayscale design with bright and colorfull images that makes it more attractive for the user; 
+*	Feature UX/UI 3 – Warning information available when displaying the SPE on a resolution that will not suit the best user experience;
+*	Proces/Flow  1 - Indicatiors (markers/button colors) that show the phase/status about actions that the user takes; 
+*	Proces/Flow  2 – Possibilty to switch between splashscreen and the SPE. 
 
 Features Left to Implement (in a random order listed below)
 
-*	Implement form logics so the contactform is usable (contact.html)
-*	Add Google maps API for geographical loction mark office location Nortstack.
+*	Remove google zoomlevel options that automaticly render by using the Maps API; 
 *	Add customer login in de main navigation bar for (existing) customers (basic portal functionality) 
-*	Add JavaScript components to create a more interactive design 
-*	Add customer stories as an extra html page on the website 
-*	Add a additional html page about company strategy and workprogress of Nortstack
+*	Add customer stories as an extra section on the website 
+*	Main feature 3 - Preselected routes defined that relies on the mentioned API's; 
 *	Add Google analytics to generate relevant data. 
 *   Create social media accounts so a reference can be made from the website. 
-*   Replace dummy image and text on cases.html for real customerlogo's with a matching description.  
+*   Replace dummy images and text on for customerlogo's with a matching description.  
 
 ## Technologies Used
 
@@ -72,6 +70,22 @@ AWS (Amazon) Cloud9, a cloud-based integrated development environment (IDE) that
 *	GitHub
 GitHub has been used for version control of the code by using Git. During the realization of the project, Git was daily used.
 
+*	Core JavaScript
+Core Javascript has been used to use the event handling functionality's. 
+
+*	Jquery libraries
+Jquery has been used for most interactive parts of the SPE. JQuery has been used to render the maps with specific routes and selections. 
+
+*	Fontawesome 
+Fontawesome as a toolkit has been used to the UX/UI so the SPE has is own brand identity. 
+
+*	Google developer environment
+The Google Developer environment has been setup to use the different places API's, and also to check the traffic of the API's and to learn about other relevant data in the API dashboard. 
+
+*	Google API's 
+The used API's are mentioned in the list of existing features. 
+
+
 ## Testing
 
 Various methods have been used to test the code of the website. During development,
@@ -84,65 +98,69 @@ Site viewed and tested in the following browsers:
     * Safari 
     * Chrome
 
-Site viewed and tested in the following devices:
-    * Samsung Galaxy
-    * Iphone 8
-    * Iphone 6S
-    * Ipad
-    * Macbook 13" and 15"
+Site viewed and tested on different screensizes. The design choise has been made that the SPE will not be showed on resolution with a lower width then 1200px. 
+When using the SPE at a lower resolution, the quality of the application is reduced. From the UX/UI perspective, the user will recieve an instruction how to use the SPE when opening on a unsuitable screensize and what 
+to do to use the SPE.
+
+The SPE has been tested on the following devices and is fitted for purpose on a laptop, desktop or large desktop: 
+
+    * Macbook 13" 
+    * Macbook 15"
+    * Windows 10" desktop 27" 
 
 Mockups and sketches were also used to continuously build and deliver in accordance to the initial plan and design of the website.
 In the final phase of the project, the opinion of a number of people was asked. We used professinoals and non professionals to see iff the site functions properly from a certain perspective. 
 In order to be able to check whether the code functions as it was conceived during the design phase, we tested the functions on a basis of different scenarios.
 Below the main features described that are basic functions as currently available on the site.
 
-* Main navigation - 
-    * Go to about.html, cases.html, contact.html. 
-    * Navigate back to index.html using the 'home' button.
-    * Try to navigate on a tablet screensize resolution within all the navigation buttons.
-    * Try to navigate on a mobile screensize resolution within all the navigation buttons. 
+* Main navigation and information - 
+    * Go to SPE (app.html) using the splashscreen/startscreen. 
+    * Navigate back to index.html using the 'return' button.
+    * Try to navigate on a screensize with a resolution lower than 1200px width.
+    * Try to select specific input fields. 
   
-* Video - 
-    * Play the external video file on index.html on different webbrowsers (IE, Firefox, Chrome, Safari).  
-    * Play the video file on a small (mobile and tablet) screensize. 
+* Use of the Maps - 
+    * Select a route trough the button selector. 
+    * Switch beweteen routes using the button selector.  
  
 * Links - 
-    * Mouseover the footer buttons to see green color as part of the design.
-    * Click on the footer buttons to verify a external site will load.
-    * Verify that the Nortstack site is still open at a different tab at moving to external site. 
+    * Select a accomodation. 
+    * Switch between accomodations. 
+    * Clear all selected accomodations.
+    * Open the external link to external website (Nortstack).
 
-* Responsive / mobile first design - 
-    * Verify that the navigation and footer are availble at every screensize.
-    * Verify the changes in lay-out at cases.html on different screensizes (better users experience and clarity of design).
+* UX/UI - 
+    * Verify that the navigation and google maps show the selected information.
+    * Verify the changes at the splashscreen (index.html) on different screensizes (better users experience and clarity of design).
 
 ## Issuelist 
 
 | Issue number    | Description     | Implemented Solution  |
 | ------------- |:-------------:| -----:|
-| 1	| Image index.html not responsive on mobile view| Added CSS functions: width: 100%; height: auto; to make it responsive on all screensizes |
-| 2	| Video content Youtube shows unwanted commercials in embeded view  |  Replaced the video/iframe source from Youtube to Vimeo |
-| 3	| Header was not responsive at lager resolutions      |  Replaced the custom header into Bootstrap header and rebuild it into desired style |
-| 4 | W3C error about deprecated form styling   |  Added example text instead of value 0 within inputfields and changed styling from HTML into CSS |
-| 5 | Width of page not neat on all views during testphase  |  Created a container class with a max width of 700px on all elements |
-| 6 | Bootstrap columns did not stack like design/mockup requirements  |  More knowledge gained from Bootstrap columns and did debugging on stacking columns |
-| 7 | Menu items in main navigation are outside navbar  |  Replaced the custom header into Bootstrap header and rebuild into desired style |
-| 8 | No active link available on different html pages |  Debugged by adding active link to every html page|
+| 1	| Buttons load accomodation image but no text |  |
+| 2	| Google Places and Maps API wont load routes  |   |
+| 3	| Favicon won't load      |   |
+| 4 | W3C error about deprecated form styling   |   |
+| 5 | Console Error Javascript  |   |
+| 6 | Console Error Javascript  |   |
+| 7 | Toggle won't start with hidden property |   |
+| 8 | Jquery won't change images when select a different route | |
 
 ## Deployment
 
 The website is made in the AWS Cloud9 environment. To give a good idea of the development progress, short deliveries are always placed at the workspace on GitHub. 
 uring the development period a upload was made to GitHub after every 3 to 4 hours of development work.
 
-It has happened a few times that we faced some coding beginner issues. Thanks to a restoration via GitHub, we were able to continue working on improving the website quickly. 
+It has happened a few times that i faced some coding beginner issues. Thanks to a restoration via GitHub, i was able to continue working on improving the website quickly. 
 The way the Git process is used is as follows:
 
 1. Builded the site on a local environment.
 2. Staged the files in the stage area.
 3. Perform push to Github to renew the working environment. (Git directory / repository).
 
-The website is now live in a testing environment, available at the following link: https://nikl881.github.io/nortstack/index.html. 
+The website is now live in a testing environment, available at the following link: https://nikl881.github.io/california_roadtrip/index.html. 
 
-After implementing the remaining features listed above the site will be live at: www.nortstack.com
+After implementing the remaining features listed above the site will be live at: www.nortstack.com/portfolio/california_roadtrip/index.html. 
 
 
 ## Credits
@@ -155,11 +173,19 @@ All media files used were developed by Nortstack itself for the design of the pr
 
 ## Acknowledgements
 
-It is a good introduction step for me into software development. 
-This project concerns the first official assignment at Code Institute. 
-Nortstack is a collaboration with me and Rogier Leijen. 
-Working together for the first few weeks on our company site gives me a good feeling for the near future. 
-I am looking forward to doing more projects together and to master webdevelopment more and more during the training. 
 
 I would also like to thank Anthony Ngene (https://github.com/tonymontaro) as a supervisor in the development of this project. 
 Thanks to his feedback, I have been given the correct insights to achieve this result.
+
+Again i'm very excited about the way i have learned about webdevelopment. 
+
+Google API's 
+Google Maps Rendering 
+Google Dashboard using
+The possibility's of Jquery 
+The complexity of Javascript
+
+And, besides coding how to learn to study coding ()
+
+I'm looking forward to the next challenges. 
+

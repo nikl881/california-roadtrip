@@ -135,6 +135,11 @@ btn-primary{
 }
 
 .warning{
+     display:inline-block;
+     float:none;
+
+     margin-right:-4px;
+    
     border-bottom-color: red;
     margin-top: 400px; 
     margin-left: 400px;
@@ -383,17 +388,17 @@ btn-primary{
 
 /*--------------------------------------------Media Queries*/
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
     .col-md-6 {display:none}
 
     
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1200px) {
     .btn-primary.active {display:none}
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1200px) {
     .warning {display:none}
 }
  
