@@ -5,6 +5,8 @@
     background-color: black; 
 }
 
+/*--------------------------------------------Bootstrap fundemental*/
+
 .col-md-6{
   height: 800px;
   background-color: black; 
@@ -28,6 +30,7 @@
  
 }
 
+/*--------------------------------------------Maps frame*/
 .data-container img{
   max-height: 800px; 
 }
@@ -51,6 +54,8 @@ height:100%;
 width:100%;
 position:absolute;
 }
+
+/*--------------------------------------------Buttons*/
 
 btn-primary{
     height: 40%; 
@@ -81,6 +86,8 @@ btn-primary{
     position: absolute;
 
 }
+
+/*--------------------------------------------Section frame*/
 
 .input-field1{
     position: absolute;
@@ -127,6 +134,7 @@ btn-primary{
     
 }
 
+/*--------------------------------------------Button default style*/
 
 #button-a {
     width: 70px;
@@ -204,6 +212,8 @@ btn-primary{
     -o-transition: all 0.35s ease-in-out;
 }
 
+/*--------------------------------------------Button event style*/
+
 #button-a:active{
     background:#ffad33;
     
@@ -259,7 +269,7 @@ btn-primary{
     background-color: #101010; 
     opacity: 0.8;
     margin-left: 570px; 
-    margin-top: 225px; 
+    margin-top: 215px; 
     position: absolute;
     left: 10px; 
     z-index: 99; 
@@ -276,6 +286,10 @@ btn-primary{
  margin: 7px
 
 }
+
+
+/*--------------------------------------------Images*/
+
 
 .splash-bg {
   background-image: url("splashscreen1.png");
@@ -303,24 +317,26 @@ btn-primary{
     font-size: 20px; 
 }
 
-.testtuinhuis{
-    margin-top: 60px; 
 
+/*--------------------------------------------Temp and testing*/
+
+.testtuinhuis{
+    
 }
 
-
 .testtuinhuis h5 {
-    margin-top: 50px; 
+     fontsize:15px; 
       font-family: 'Overlock', sans-serif;
 } 
 
 .testtuinhuis h6 {
-    margin-top: 50px; 
+    fontsize:15px; 
       font-family: 'Overlock', sans-serif;
 } 
 
 .testtuinhuis h7 {
-    margin-top: 50px; 
+    fontsize:15px; 
       font-family: 'Overlock', sans-serif;
 } 
+
 
