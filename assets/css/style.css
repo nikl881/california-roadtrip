@@ -137,11 +137,12 @@ btn-primary{
 .warning{
     border-bottom-color: red;
     margin-top: 400px; 
-    margin-left: 500px;
+    margin-left: 400px;
     height: 100px; 
     width: 100px;
     position: absolute; 
     color: white; 
+    font-size: 20px; 
     
 }
 
@@ -382,8 +383,8 @@ btn-primary{
 
 /*--------------------------------------------Media Queries*/
 
-@media screen and (max-width:800px) {
-    .col-md-6 {display:none,}
+@media screen and (max-width:1000px) {
+    .col-md-6 {display:none}
 
     
 }
@@ -392,6 +393,7 @@ btn-primary{
     .btn-primary.active {display:none}
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
     .warning {display:none}
 }
+ 
