@@ -51,17 +51,11 @@
 
       <div id="button2">
     
-    <input type="button" id="buttontest" value="Open and close image">      
+    <input type="button" id="buttontest" value="Comfort ">      
+        <input type="button" id="buttontest-2" value="Deluxe">      
+            <input type="button" id="buttontest-3" value="Diamond">      
          
-      <script src="assets/js/btn-function.js"></script>
-      <button onclick="picture1()">Luxe Residance</button> 
 
-      
-      <script src="assets/js/btn-function.js"></script>
-      <button onclick="picture3()">City trips</button> 
-      
-       <script src="assets/js/btn-function.js"></script>
-       <button onclick="picture2()">Beach and Pool</button> 
       
       </div>
        </div>
@@ -79,20 +73,20 @@
     <div class="transbox testjsdiv"
        
     <script src="assets/js/btn-function.js"></script>
-    <img id="bigpic1" src="bigpic1" />
+
     
     <script src="assets/js/btn-function.js"></script>
-    <img id="bigpic2" "button2" src="bigpic2" />
+
   
     <script src="assets/js/btn-function.js"></script>
-    <img id="bigpic3" src="bigpic3" />
+
     </div>
     
       
         <div class="transbox">
           <h3>Preview your stay!</h3>
            <p>Below you can see a preview of the finest selected locations in California on your roadtrip.
-           Start first with the style selector and then click on the image to see more info.</p>
+           Start first with the style selector and then choose your stay.</p>
     
     
     <!--Temp test html and js script concerning open/close image with jquery button-->       
@@ -100,8 +94,14 @@
 
     <div class="testtuinhuis">
 
-    <img src="assets/css/images/image1.png" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest" </a>
-    <h5>Dit is een demo text die bij het tuinhuisje hoort.</h5>
+    <img src="assets/css/images/comfort.jpg" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest" </a>
+    <h5>Selected the comfort accomodations. It's a nice stay with all the basics you need.</h5>
+    
+    <img src="assets/css/images/deluxe.jpg" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest-2" </a>
+    <h6>Selected the deluxe accomodation. This accomodations include a small living room and a bath with seperated shower.</h6>
+    
+    <img src="assets/css/images/diamond.jpg" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest-3" </a>
+    <h7>Selected the diamond accomodation. This is the top notch stay in our finest selection. Includes a private roof terrase and large living room.</h7>
     
     <script
 	src="https://code.jquery.com/jquery-3.3.1.js"
@@ -116,7 +116,6 @@
     $('#LogoTest').toggle();
     
     
-     
     });
     
     $('#buttontest').on("click",function(e)
@@ -125,9 +124,38 @@
     
     }); 
     
+ 
+    
+    $('#buttontest-2').on("click",function(e)
+    {  
+    $('#LogoTest-2').toggle();
+    
+    
+    });
+    
+    $('#buttontest-2').on("click",function(e)
+    {  
+    $('h6').toggle();
+    
+    }); 
+    
+    
+    
+        $('#buttontest-3').on("click",function(e)
+    {  
+    $('#LogoTest-3').toggle();
+    
+    
+    });
+    
+    $('#buttontest-3').on("click",function(e)
+    {  
+    $('h7').toggle();
+    
+    }); 
+    
     
     </script>
-    
     </script>
     
     </div> 
@@ -163,7 +191,7 @@
      
       </div>
       <a href="https://www.nortstack.com">
-      <img border="0" alt="W3Schools" src="assets/css/images/footer_nw.png" width="380" height="96">
+      <img border="0" alt="Footer" src="assets/css/images/footer_nw.png" width="380" height="96">
       </a>
       </div>
       
