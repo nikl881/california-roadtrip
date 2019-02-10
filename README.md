@@ -1,7 +1,8 @@
-![alt text 4](https://nikl881.github.io/california_roadtrip/readme.png)
+![alt text 5](https://nikl881.github.io/california_roadtrip/readme.png)
+![alt text 5](https://nikl881.github.io/california-roadtrip/readme.png)
 
-
-![Image description](https://nikl881.github.io/california_roadtrip/demo_img.jpeg)
+![Image description 5](https://nikl881.github.io/california_roadtrip/demo_img.jpeg)
+![Image description 5](https://nikl881.github.io/california-roadtrip/demo_img.jpeg)
 
 Concerns the corporate website of a new digital agency called  ‘Nortstack’. Nortstack is a collaboration between Niels de Klerk (Project Manager and full stack web developer) and Rogier Leijen (Motion Graphic Designer and Art director). 
 Based on their different backgrounds, a merger has been formed to offer innovative online services that combine creativity, customer intimacy and the use of modern technology standards. 
