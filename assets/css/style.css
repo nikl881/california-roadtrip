@@ -118,7 +118,7 @@ btn-primary{
     position: absolute;
     color:white;
     margin-left: 400px; 
-    margin-top: 450px;
+    margin-top: 550px;
     
 }
 
@@ -398,7 +398,7 @@ btn-primary{
 
 /*--------------------------------------------Media Queries*/
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
     .col-md-6 {display:none}
 
     
@@ -413,6 +413,9 @@ btn-primary{
 }
  
 
+ @media screen and (max-width:1200px) {
+    .input-field2 {display:none}
+}
  
  
 .transbox2 {
