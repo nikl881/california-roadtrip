@@ -94,7 +94,7 @@ btn-primary{
     color:white;
     margin-left: 400px; 
     margin-top: 200px;
-    
+    font-family:'Overlock', sans-serif;
 }
 
 .input-field1 p{
@@ -104,7 +104,7 @@ btn-primary{
     
 }
 
-.input-field1 h2{
+.input-field1 h1{
     font-family:'Overlock' sans-serif;
     color:white;
     margin-bottom: 20px; 
@@ -390,7 +390,7 @@ btn-primary{
       font-family: 'Overlock', sans-serif;
 } 
 
-.testtuinhuis h7 {
+.testtuinhuis h4 {
     fontsize:15px; 
       font-family: 'Overlock', sans-serif;
 } 
@@ -469,9 +469,9 @@ body, html {
 }
 
 .inn-preview{
-    display: none; 
+
 }
 
 .inn-preview.active{
-    display: block; 
+
 }
