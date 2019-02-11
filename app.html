@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
@@ -12,9 +12,7 @@
     </head>
     <body>
    
-    <div class="container-fluid">
-    <div class="row">
-      
+    
     <div class="data-container">
     <div class="col-md-6 bgimg" style="background-color:black;">
 
@@ -28,128 +26,95 @@
   <p>This trip is based on highlights of California.
   A indicated route can be selected from south to 
   north or in reverse. Select your startpoint below. </p>
-  </p>
+  
   
   <button id="button-a">Beach</button>
   <button id="button-b">City</button>
   <button id="button-c">Residance</button>
 
-   <div class="startpoint">
-  
-  
-  </div>  
+
   </div>
   
-  <div class="input-field2"
-     <p class="test1">
+  <div class="input-field2">
+
       <h2>Choose your style</h2>
-      
         <p>We have selected three different
           locations and accomodations. Choose what fits you best.</p>
-  </p>
+     
   
-
       <div id="button2">
     
     <input type="button" id="buttontest" value="Comfort ">      
         <input type="button" id="buttontest-2" value="Deluxe">      
             <input type="button" id="buttontest-3" value="Diamond">      
-         
-
-      
-      </div>
+    
+          </div>
        </div>
        
-      <img src="assets/css/images/background_new.png"> 
+      <img src="assets/css/images/background_new.png" alt="background"> 
     </div>
 </div>
 
 
-    <div class="col-md-6" style="background-color:black;">
+    <div class="col-md-6">
       <div class="poi-img">
        <img src="assets/css/images/demo_img.jpeg" class="rounded float-right" alt="test">
        </div>      
        
-    <div class="transbox testjsdiv"
-       
-    <script src="assets/js/btn-function.js"></script>
 
-    
-    <script src="assets/js/btn-function.js"></script>
-
-  
-    <script src="assets/js/btn-function.js"></script>
-
-    </div>
-    
-      
         <div class="transbox">
           <h3>Preview your stay!</h3>
            <p>Below you can see a preview of the finest selected locations in California on your roadtrip.
            Start first with the style selector and then choose your stay.</p>
     
-    
-    <!--Temp test html and js script concerning open/close image with jquery button-->       
-
 
     <div class="testtuinhuis">
 
-    <img src="assets/css/images/comfort.jpg" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest"</a>
+    <img src="assets/css/images/comfort.jpg" border="0" width="300" height="192" alt="comfort_img"  target="nowa_strona" id="LogoTest"</a>
     <h5>Selected the comfort accomodations. It's a nice stay with all the basics you need.</h5>
     
-    <img src="assets/css/images/deluxe.jpg" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest-2"</a>
+    <img src="assets/css/images/deluxe.jpg" border="0" width="300" height="192" alt="deluxe_img"  target="nowa_strona" id="LogoTest-2"</a>
     <h6>Selected the deluxe accomodation. This accomodations include a small living room and a bath with seperated shower.</h6>
     
-    <img src="assets/css/images/diamond.jpg" border="0" width="300" height="192" alt="image1"  target="nowa_strona" id="LogoTest-3"</a>
+    <img src="assets/css/images/diamond.jpg" border="0" width="300" height="192" alt="diamond_img"  target="nowa_strona" id="LogoTest-3"</a>
     <h7>Selected the diamond accomodation. This is the top notch stay in our finest selection. Includes a private roof terrase and large living room.</h7>
     
     <script
 	src="https://code.jquery.com/jquery-3.3.1.js"
 	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
 	crossorigin="anonymous">
-     </script>
+    </script>
      
     <script>
-
 
     
     $('#buttontest').on("click",function(e)
     {  
-  
     $('#LogoTest').toggle();
     
-    
     });
-    
     $('#buttontest').on("click",function(e)
     {  
     $('h5').toggle();
     
     }); 
     
- 
-    
     $('#buttontest-2').on("click",function(e)
     {  
     $('#LogoTest-2').toggle();
     
-    
     });
-    
     $('#buttontest-2').on("click",function(e)
     {  
     $('h6').toggle();
     
     }); 
     
-    
-    
         $('#buttontest-3').on("click",function(e)
     {  
     $('#LogoTest-3').toggle();
     
-    
-     
+
     });
     
     $('#buttontest-3').on("click",function(e)
@@ -157,33 +122,21 @@
     $('h7').toggle();
     
     }); 
-
-
     </script>
-    </script>
-    
+
     </div> 
-    
-    <!--End of temp html and js script-->   
-    
-    
     </div>
-           <div id="map">
+          
+    <div id="map">
         </div>
-    
-    <script>
-    </script>
+  
     
     </div> 
     
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaqH60ocg-PUI8aZ9Rkad5RgJr-MaEB_M&callback=initMap"></script>
-   <script
-	src="https://code.jquery.com/jquery-3.3.1.js"
-	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-	crossorigin="anonymous"></script>
-		
- <script src="assets/js/maps.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    <script src="assets/js/maps.js"></script>
  
 </body>
 

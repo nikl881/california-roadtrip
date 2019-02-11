@@ -111,7 +111,9 @@ btn-primary{
     
 }
 
-.input-field2{
+
+
+.input-field2 {
     font-family: 'Overlock', sans-serif;
     position: absolute;
     color:white;
@@ -124,32 +126,29 @@ btn-primary{
     font-family: 'Overlock', sans-serif;
     color:white;
     font-size: 20px;
+
     
 }
 
-.input-field2 h2{
-    font-family: 'Overlock', sans-serif;
-    color:white;
-    margin-bottom: 20px; 
-    
-}
 
 .warning{
-     display:inline-block;
-     float:none;
-
-     margin-right:-4px;
-    
-    border-bottom-color: red;
-    margin-top: 400px; 
-    margin-left: 400px;
+    display:inline-block;
+    float:none;
     height: 100px; 
     width: 100px;
-    position: absolute; 
-    color: white; 
-    font-size: 20px; 
+    border-color: #e6e6e6;  
+    text-align: center; 
+    font-size: 15px;
+    font-family: 'Overlock', sans-serif;
+    color:#fff;
     
 }
+
+.container{
+    color:brown;
+       position: absolute; 
+}
+
 
 .bgimg-1{
     position: relative; 
@@ -278,20 +277,13 @@ btn-primary{
      background:#ffad33;
 }
 
-#buttontest-2: active{
-     background:#ffad33;
+
+#button: focus{
+     background:red;
 }
 
-#buttontest-2: focus{
-     background:#ffad33;
-}
-
-#buttontest-3: active{
-     background:#ffad33;
-}
-
-#buttontest-3: focus{
-     background:#ffad33;
+#button: active{
+     background:red;
 }
 
 
@@ -402,3 +394,53 @@ btn-primary{
     .warning {display:none}
 }
  
+ 
+.transbox2 {
+    width: 300px ;
+    color: white;
+    background-color: #000; 
+    opacity: 0.8;
+     position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("images/splashscreen1.png");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
