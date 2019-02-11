@@ -361,6 +361,24 @@ btn-primary{
 /*--------------------------------------------Temp and testing*/
 
 
+.logo-accom1{
+    width: 300px;
+    height: 192px; 
+    border: 0;
+}
+
+.logo-accom2{
+    width: 300px;
+    height: 192px;
+    border: 0;
+}
+
+.logo-accom3{
+    width: 300px;
+    border: 0;
+    height: 192px; 
+}
+
 
 .testtuinhuis h5 {
      fontsize:15px; 
@@ -393,6 +411,8 @@ btn-primary{
 @media screen and (min-width:1200px) {
     .warning {display:none}
 }
+ 
+
  
  
 .transbox2 {
