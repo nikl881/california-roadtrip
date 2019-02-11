@@ -112,24 +112,19 @@ btn-primary{
 }
 
 
-
 .input-field2 {
     font-family: 'Overlock', sans-serif;
     position: absolute;
     color:white;
     margin-left: 400px; 
     margin-top: 550px;
-    
 }
 
 .input-field2 p{
     font-family: 'Overlock', sans-serif;
     color:white;
     font-size: 20px;
-
-    
 }
-
 
 .warning{
     display:inline-block;
@@ -141,7 +136,6 @@ btn-primary{
     font-size: 15px;
     font-family: 'Overlock', sans-serif;
     color:#fff;
-    
 }
 
 .container{
@@ -149,11 +143,9 @@ btn-primary{
        position: absolute; 
 }
 
-
 .bgimg-1{
     position: relative; 
 }
-
 
 /*--------------------------------------------Button default style*/
 
@@ -240,7 +232,6 @@ btn-primary{
     
 }
 
-
 #button-a:focus{
     background:#ffad33;
      color:black;
@@ -251,7 +242,6 @@ btn-primary{
     
 }
 
-
 #button-b:focus{
     background:#ffad33;
      color:black;
@@ -259,15 +249,13 @@ btn-primary{
 
 #button-c:active{
     background:#ffad33;
-    
+   
 }
-
 
 #button-c:focus{
     background:#ffad33;
      color:black;
 }
-
 
 #button2.active{
      background:#ffad33;
@@ -277,7 +265,6 @@ btn-primary{
      background:#ffad33;
 }
 
-
 #button.focus{
      background:red;
 }
@@ -285,7 +272,6 @@ btn-primary{
 #button.active{
      background:red;
 }
-
 
 .startpoint{
     font-size: 20px; 
@@ -327,9 +313,7 @@ btn-primary{
 
 }
 
-
 /*--------------------------------------------Images*/
-
 
 .splash-bg {
   background-image: url("splashscreen1.png");
@@ -379,7 +363,6 @@ btn-primary{
     height: 192px; 
 }
 
-
 .testtuinhuis {
      font-size:15px; 
       font-family: 'Overlock', sans-serif;
@@ -400,7 +383,6 @@ btn-primary{
 
 @media screen and (max-width:1400px) {
     .col-md-6 {display:none}
-
     
 }
 
@@ -416,7 +398,6 @@ btn-primary{
  @media screen and (max-width:1200px) {
     .input-field2 {display:none}
 }
- 
  
 .transbox2 {
     width: 300px ;
