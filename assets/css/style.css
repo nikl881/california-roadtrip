@@ -386,18 +386,22 @@ btn-primary{
     
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
     .btn-primary.active {display:none}
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1400px) {
     .warning {display:none}
 }
  
 
- @media screen and (max-width:1200px) {
+ @media screen and (max-width:1400px) {
     .input-field2 {display:none}
 }
+ 
+ 
+ /*--------------------------------------------Misc*/
+ 
  
 .transbox2 {
     width: 300px ;
