@@ -105,7 +105,7 @@ btn-primary{
 }
 
 .input-field1 h1{
-    font-family:'Overlock' sans-serif;
+    font-family:'Overlock', sans-serif;
     color:white;
     margin-bottom: 20px; 
     
@@ -269,20 +269,20 @@ btn-primary{
 }
 
 
-#button2: active{
+#button2.active{
      background:#ffad33;
 }
 
-#button2: focus{
+#button2.focus{
      background:#ffad33;
 }
 
 
-#button: focus{
+#button.focus{
      background:red;
 }
 
-#button: active{
+#button.active{
      background:red;
 }
 
@@ -380,18 +380,18 @@ btn-primary{
 }
 
 
-.testtuinhuis h5 {
-     fontsize:15px; 
+.testtuinhuis {
+     font-size:15px; 
       font-family: 'Overlock', sans-serif;
 } 
 
-.testtuinhuis h6 {
-    fontsize:15px; 
+.testtuinhuis  {
+    font-size:15px; 
       font-family: 'Overlock', sans-serif;
 } 
 
-.testtuinhuis h4 {
-    fontsize:15px; 
+.testtuinhuis  {
+    font-size:15px; 
       font-family: 'Overlock', sans-serif;
 } 
 
