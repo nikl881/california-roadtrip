@@ -377,9 +377,7 @@ body, html {
     height: 192px; 
 }
 
-.logoTest2{
-    
-}
+
 
 /*--------------------------------------------Media Queries*/
 
@@ -406,7 +404,7 @@ body, html {
  
  
 .transbox2 {
-    width: 300px ;
+    width: 100% ;
     color: white;
     background-color: #000; 
     opacity: 0.8;
@@ -448,10 +446,10 @@ body, html {
 
  /*--------------------------------------------Button event*/
 
-.inn-preview{
-
+#inn-preview{
+ display: none; 
 }
 
-.inn-preview.active{
-
+#inn-preview.active{
+ display: block; 
 }
