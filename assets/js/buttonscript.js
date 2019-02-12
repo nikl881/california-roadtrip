@@ -5,7 +5,7 @@
     });
     $('#buttontest').on("click",function(e)
     {  
-    $('h5').toggle();
+    $('h4').toggle();
     
     }); 
     
@@ -17,7 +17,7 @@
     
     $('#buttontest-2').on("click",function(e)
     {  
-    $('h6').toggle();
+    $('h5').toggle();
     
     }); 
     
@@ -29,6 +29,6 @@
     
     $('#buttontest-3').on("click",function(e)
     {  
-    $('h7').toggle();
+    $('h6').toggle();
     
     }); 

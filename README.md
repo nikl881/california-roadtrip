@@ -150,7 +150,7 @@ Below the main features described that are basic functions as currently availabl
 | 8 | Images not fully responsive | Rebuild Bootstrap columns |
 | 9 | Maps won't show desired postion| Changed zoomlevel in scriptfile|
 
-## Workmethod 
+## Work method 
 
 During the development of this project Trello (Trello.com) is used as a simple project management tool to develop in a controlled project environment. I have used the 'trello-board' for all the 
 actions within the project; initializing the project until the completion. The trello-board has been used for: preperation actions, building functionalities, testwork and debugging. 
@@ -193,4 +193,4 @@ I learned some fundamentals about integrating and using Google APIs (including G
 This project was just a introduction,  I definitely want to learn more about this subject in the future. 
 In addition, I gained  basic knowledge about the use (and power) of Jquery and I tried to make a step in the more complex world of JavaScript.
 
-I'am  looking forward to the upcoming topics and challenges.s
+I'am  looking forward to the upcoming topics and challenges.

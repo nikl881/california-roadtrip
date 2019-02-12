@@ -1,20 +1,17 @@
+var map;
+
 $(document).ready(function() {
   var directionsService = new google.maps.DirectionsService(); 
   var directionsDisplay = new google.maps.DirectionsRenderer(); 
   
+var map;
 
-    
-  
-  function initMap() { 
-    var chicago = new google.maps.LatLng(34.070938, -118.393768); 
+function initMap() { 
+    var la = new google.maps.LatLng(34.070938, -118.393768); 
     var mapOptions = {
     zoom: 7,
-    center: chicago,
-    
-    
-    
+    center: la,
     styles:    
-    
     [
   {
     "elementType": "geometry",
@@ -202,9 +199,8 @@ $(document).ready(function() {
   }
 ]
 
-
 }
-  
+  var map;
   
   var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
   directionsDisplay.setMap(map); 
@@ -224,6 +220,8 @@ $(document).ready(function() {
     });
     }
     
+    var map;
+    
     initMap();
     
     $("#button-a").on("click", () => {
@@ -241,6 +239,7 @@ $(document).ready(function() {
       
     }); 
     
+    var map;
     
      initMap();
     
@@ -256,7 +255,8 @@ $(document).ready(function() {
       
       calcRoute("san diego, ca", "los angeles, ca");
       
-      
+    
+    var map;
      initMap();
     
     $("#button-c").on("click", () => {

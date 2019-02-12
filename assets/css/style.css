@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Overlock:100,200,300,400,500,600,700'); 
 
-.html {
-    background-color: black; 
-}
 
 /*--------------------------------------------Bootstrap fundemental*/
 
@@ -47,6 +44,7 @@ padding-bottom:56.25%;
 position:relative;
 height:0;
 }
+
 .map-container-2 iframe{
 left:0;
 top:0;
@@ -147,6 +145,21 @@ btn-primary{
     position: relative; 
 }
 
+/*--------------------------------------------General*/
+
+.html {
+    background-color: black; 
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  background-color: black; 
+}
+
+
 /*--------------------------------------------Button default style*/
 
 #button-a {
@@ -229,7 +242,6 @@ btn-primary{
 
 #button-a:active{
     background:#ffad33;
-    
 }
 
 #button-a:focus{
@@ -239,7 +251,6 @@ btn-primary{
 
 #button-b:active{
     background:#ffad33;
-    
 }
 
 #button-b:focus{
@@ -249,7 +260,6 @@ btn-primary{
 
 #button-c:active{
     background:#ffad33;
-   
 }
 
 #button-c:focus{
@@ -342,8 +352,12 @@ btn-primary{
 }
 
 
-/*--------------------------------------------Temp and testing*/
+/*--------------------------------------------Logo's / accomodations*/
 
+.testtuinhuis {
+     font-size:15px; 
+      font-family: 'Overlock', sans-serif;
+} 
 
 .logo-accom1{
     width: 300px;
@@ -363,21 +377,9 @@ btn-primary{
     height: 192px; 
 }
 
-.testtuinhuis {
-     font-size:15px; 
-      font-family: 'Overlock', sans-serif;
-} 
-
-.testtuinhuis  {
-    font-size:15px; 
-      font-family: 'Overlock', sans-serif;
-} 
-
-.testtuinhuis  {
-    font-size:15px; 
-      font-family: 'Overlock', sans-serif;
-} 
-
+.logoTest2{
+    
+}
 
 /*--------------------------------------------Media Queries*/
 
@@ -408,19 +410,10 @@ btn-primary{
     color: white;
     background-color: #000; 
     opacity: 0.8;
-     position: absolute;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-  background-color: black; 
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color: #000;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -452,6 +445,8 @@ body, html {
   font-size: 25px;
   letter-spacing: 10px;
 }
+
+ /*--------------------------------------------Button event*/
 
 .inn-preview{
 
