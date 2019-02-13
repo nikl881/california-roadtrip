@@ -26,21 +26,21 @@ usually a user or customer of the system. In a random order a list of important 
 In the following link additional information concerning the UX/UI design can be found. 
 This includes wireframes and mockups and basic images for the branddesign: 
 
-https://drive.google.com/drive/folders/1PtXtJduz-PELMQiYZTIpvAgPSXKjqaYd?usp=sharing
+https://drive.google.com/drive/folders/1Wcb2VyqjEw2pfl83DB4fwjMy4K5tzQ6Z
 
 ## Features
 
 Existing Features (week 6 - 2019) 
 
-*	Main feature 1 - A splited SPE with a left frame for data, input fields, event handling and images, and on the right a rendered map in the specific UX/UI design of the project; 
+*	Main feature 1 - A splited SPI with a left frame for data, input fields, event handling and images, and on the right a rendered map in the specific UX/UI design of the project; 
 *	Main feature 2 - Integrated Google Places API, Google Maps JavaScript API, Directions API, Maps Embed API to load specific routes on the map; 
 *	Main feature 3 - Preselected routes defined that relies on the mentioned API's; 
 *	Main feature 4 - Accomodations data and images available using JQuery; 
 *	Feature UX/UI 1 – Splashscreen with specific UX/UI design as starting (and turnback) point and access to the SPI; 
 *	Feature UX/UI 2 – Easy and clear dark/grayscale design with bright and colorfull images that makes it more attractive for the user; 
-*	Feature UX/UI 3 – Warning information available when displaying the SPE on a resolution that will not suit the best user experience;
+*	Feature UX/UI 3 – Warning information available when displaying the SPI on a resolution that will not suit the best user experience;
 *	Proces/Flow  1 - Indicatiors (markers/button colors) that show the phase/status about actions that the user takes; 
-*	Proces/Flow  2 – Possibilty to switch between splashscreen and the SPE. 
+*	Proces/Flow  2 – Possibilty to switch between splashscreen and the SPI. 
 
 Features Left to Implement (in a random order listed below)
 
@@ -76,10 +76,10 @@ In this section all of the languages, frameworks, libraries, and other tools tha
     *Core Javascript has been used to use the event handling functionality's on specific buttons. 
 
 *	Jquery libraries - 
-    *Jquery has been used for most interactive parts of the SPE. JQuery has been used to render the maps with specific routes and selections on specific buttons. 
+    *Jquery has been used for most interactive parts of the SPI. JQuery has been used to render the maps with specific routes and selections on specific buttons. 
 
 *	Fontawesome - 
-    *Fontawesome as a toolkit has been used to the UX/UI so the SPE has is own brand identity. 
+    *Fontawesome as a toolkit has been used to the UX/UI so the SPI has is own brand identity. 
 
 *	Google Developer Environment - 
     *The Google Developer Environment has been setup to use the different places API's, and also to check the traffic of the API's and to learn about other relevant data in the API dashboard. 
@@ -101,10 +101,10 @@ Site viewed and tested in the following browsers:
     * Chrome
 
 The design choise has been made that the SPI will not be showed on resolution with a lower width then 1200px. 
-When using the SPE at a lower resolution, the quality of the application is to much reduced. From the UX/UI perspective, the user will recieve an instruction how to use the SPE when opening on a unsuitable screensize and what 
+When using the SPI at a lower resolution, the quality of the application is to much reduced. From the UX/UI perspective, the user will recieve an instruction how to use the SPI when opening on a unsuitable screensize and what 
 to do to next. 
 
-The SPE has been tested on the following devices and is fitted for purpose on a laptop, desktop or large desktop: 
+The SPI has been tested on the following devices and is fitted for purpose on a laptop, desktop or large desktop: 
 
     * Macbook 13" 
     * Macbook 15"
