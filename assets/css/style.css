@@ -30,6 +30,7 @@
 /*--------------------------------------------Maps frame*/
 .data-container img{
   max-height: 800px; 
+  max-width: 500px; 
 }
 
 #map {
@@ -90,7 +91,6 @@ btn-primary{
 .input-field1{
     position: absolute;
     color:white;
-    margin-left: 400px; 
     margin-top: 150px;
     font-family:'Overlock', sans-serif;
 }
@@ -114,7 +114,6 @@ btn-primary{
     font-family: 'Overlock', sans-serif;
     position: absolute;
     color:white;
-    margin-left: 400px; 
     margin-top: 450px;
 }
 
@@ -412,6 +411,7 @@ body, html {
   letter-spacing: 10px;
 }
 
+
  /*--------------------------------------------Button event*/
 
 .inn-preview{
@@ -420,4 +420,8 @@ body, html {
 
 .inn-preview.active{
  display: block; 
+}
+
+@media screen and (max-width:1000px) {
+    .bg-cover {display:none}
 }
