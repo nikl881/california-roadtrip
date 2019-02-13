@@ -10,8 +10,8 @@
     
     $(document).ready(function(){
     $( "#buttontest" ).click(function(){
-    $( "#inn-preview" ).hide();
-    $( "#inn-preview" ).show();
+    $( ".inn-preview" ).hide();
+    $( ".inn-preview" ).show();
     });   
     });
     }); 
@@ -30,8 +30,8 @@
     $(document).ready(function(){
     $( "#buttontest" ).click(function(){
 
-    $( "#inn-preview" ).hide();
-    $( "#inn-preview" ).show();
+    $( ".inn-preview" ).hide();
+    $( ".inn-preview" ).show();
     
     });  
     });
@@ -49,8 +49,8 @@
     
     $(document).ready(function(){
     $( "#buttontest" ).click(function(){
-    $( "#inn-preview" ).hide();
-    $( "#inn-preview" ).show();
+    $( ".inn-preview" ).hide();
+    $( ".inn-preview" ).show();
     
     });   
     });

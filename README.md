@@ -38,7 +38,6 @@ Existing Features (week 6 - 2019)
 *	Main feature 4 - Accomodations data and images available using JQuery; 
 *	Feature UX/UI 1 – Splashscreen with specific UX/UI design as starting (and turnback) point and access to the SPI; 
 *	Feature UX/UI 2 – Easy and clear dark/grayscale design with bright and colorfull images that makes it more attractive for the user; 
-*	Feature UX/UI 3 – Warning information available when displaying the SPI on a resolution that will not suit the best user experience;
 *	Proces/Flow  1 - Indicatiors (markers/button colors) that show the phase/status about actions that the user takes; 
 *	Proces/Flow  2 – Possibilty to switch between splashscreen and the SPI. 
 
@@ -100,17 +99,14 @@ Site viewed and tested in the following browsers:
     * Safari 
     * Chrome
 
-The design choise has been made that the SPI will not be showed on resolution with a lower width then 1200px. 
-When using the SPI at a lower resolution, the quality of the application is to much reduced. From the UX/UI perspective, the user will recieve an instruction how to use the SPI when opening on a unsuitable screensize and what 
-to do to next. 
-
 The SPI has been tested on the following devices and is fitted for purpose on a laptop, desktop or large desktop: 
 
     * Macbook 13" 
     * Macbook 15"
     * Windows 10 desktop 27" 
-    * Iphone 8 (to test warning message)
-
+    * Iphone 8 
+    * Iphone 10
+    
 Mockups and sketches were also used to continuously build and deliver in accordance to the initial plan and design of the website.
 In the final phase of the project, the opinion of a number of people was asked. We used professinoals and non professionals to see iff the site functions properly from a certain perspective. 
 In order to be able to check whether the code functions as it was conceived during the design phase, we tested the functions on a basis of different scenarios.
@@ -119,7 +115,7 @@ Below the main features described that are basic functions as currently availabl
 * Main navigation and information - 
     * Go to SPI (app.html) using the splashscreen/startscreen (index.html). 
     * Navigate back to index.html using the 'return' button.
-    * Try to navigate on a screensize with a resolution lower than 1200px width.
+    * Try to navigate on different devices with different screenresolutions. 
     * Try to select specific input fields. 
   
 * Use of the Maps - 
@@ -134,7 +130,7 @@ Below the main features described that are basic functions as currently availabl
 
 * UX/UI - 
     * Verify that the navigation and google maps show the selected information.
-    * Verify the changes at the splashscreen (index.html) on different screensizes (regarding user experience and clarity of design).
+    * Verify the splashscreen (index.html) on different screensizes (regarding user experience and clarity of design).
 
 ## Issuelist 
 
