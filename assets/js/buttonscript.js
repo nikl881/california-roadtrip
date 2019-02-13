@@ -28,7 +28,7 @@
     $('h5').toggle();
     
     $(document).ready(function(){
-    $( "#buttontest-2" ).click(function(){
+    $( "#buttontest" ).click(function(){
 
     $( "#inn-preview" ).hide();
     $( "#inn-preview" ).show();
@@ -48,7 +48,7 @@
     $('h6').toggle();
     
     $(document).ready(function(){
-    $( "#buttontest-3" ).click(function(){
+    $( "#buttontest" ).click(function(){
     $( "#inn-preview" ).hide();
     $( "#inn-preview" ).show();
     
