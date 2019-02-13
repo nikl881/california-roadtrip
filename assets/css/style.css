@@ -29,15 +29,18 @@
 
 /*--------------------------------------------Maps frame*/
 .data-container img{
-  max-height: 800px; 
+  max-height: 600px; 
   max-width: 500px; 
 }
 
 #map {
    height: 800px;
-   position: relative; 
+
+   color:white;
 
 }
+
+
 
 .map-container-2{
 overflow:hidden;
@@ -90,7 +93,7 @@ btn-primary{
 
 .input-field1{
     color:white;
-    margin-top: 100px;
+    margin-top: 150px;
     font-family:'Overlock', sans-serif;
 }
 
@@ -98,6 +101,7 @@ btn-primary{
     font-family:'Overlock', sans-serif;
     color:white;
     font-size: 20px; 
+    padding-bottom: 25px;   
     
 }
 
@@ -111,7 +115,7 @@ btn-primary{
 
 .input-field2 {
     font-family: 'Overlock', sans-serif;
-
+    padding-bottom: 70px; 
     color:white;
     margin-top: 50px;
 }
