@@ -1,57 +1,10 @@
-
-    $('#buttontest').on("click",function(e)
-    {  
-    $('#LogoTest').toggle();
-    });
-    $('#buttontest').on("click",function(e)
-    {  
-    $('h4').toggle();
-    
-    
-    $(document).ready(function(){
-    $( "#buttontest" ).click(function(){
-    $( ".inn-preview" ).hide();
-    $( ".inn-preview" ).show();
-    });   
-    });
-    }); 
-    
-    $('#buttontest-2').on("click",function(e)
-    {  
-        
-    $('#LogoTest-2').toggle();
-    });
-    
-    $('#buttontest-2').on("click",function(e)
-    {  
-        
-    $('h5').toggle();
-    
-    $(document).ready(function(){
-    $( "#buttontest" ).click(function(){
-
-    $( ".inn-preview" ).hide();
-    $( ".inn-preview" ).show();
-    
-    });  
-    });
-    }); 
-    
-    $('#buttontest-3').on("click",function(e)
-    {  
-    $('#LogoTest-3').toggle();
-    
-    });
-    
-    $('#buttontest-3').on("click",function(e)
-    {  
-    $('h6').toggle();
-    
-    $(document).ready(function(){
-    $( "#buttontest" ).click(function(){
-    $( ".inn-preview" ).hide();
-    $( ".inn-preview" ).show();
-    
-    });   
-    });
-    }); 
+$(".show-inn").on("click", function() {
+  // Remove the active class from all inns
+  $(".inn-preview").removeClass("active");
+  
+  // Get the ID of the button that was clicked e.g deluxe 
+  var buttonId = $(this).attr("id");
+  
+  // Give the Inn with a corressponding ID the active class. E.g #deluxeInn will get the active class
+  $(`#${buttonId}Inn`).addClass("active");
+});

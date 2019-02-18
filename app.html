@@ -51,9 +51,9 @@
   
       <div id="button2">
     
-    <input type="button" id="buttontest" value="Comfort ">      
-        <input type="button" id="buttontest-2" value="Deluxe">      
-            <input type="button" id="buttontest-3" value="Diamond">      
+      <input type="button" id="comfort"   class="show-inn" value="Comfort ">      
+      <input type="button" id="deluxe"  class="show-inn" value="Deluxe">      
+      <input type="button" id="diamond"  class="show-inn" value="Diamond"> 
     
           </div>
        </div>
@@ -64,37 +64,42 @@
 </div>
     <div class="mapgeneral">
     <div class="col-md-6">
-      <div class="poi-img">
-       <img src="assets/css/images/demo_img.jpeg"  alt="test">
-       </div>      
-       
 
+       
         <div class="transbox">
-          <h3>Preview your stay!</h3>
+            <div class="poi-img">
+                <img src="assets/css/images/demo_img.jpeg"  alt="test">
+          <div class="inn-preview active">
+                
+         
+         </div>
+           <h3>Preview your stay!</h3>
            <p>Below you can see a preview of the finest selected locations in California on your roadtrip.
            Start first with the style selector and then choose your stay.</p>
-    
-
+  
+</div>
     <div class="testtuinhuis">
     
-    <div class="inn-preview">
-    <img src="assets/css/images/comfort.jpg" alt="comfort_img"  id="LogoTest">
-    <h4>Selected the <b>'comfort accomodations'</b>. It's a nice stay with all the basics you need.</h4>
-   </div>
-    
-    
-    <div class="inn-preview">
-    <img src="assets/css/images/deluxe.jpg" alt="deluxe_img"  id="LogoTest-2">
-    <h5>Selected the <b>'deluxe accomodations'</b>. This accomodations include a small living room and a bath with seperated shower.</h5>
-    </div>
-    
-    
-    <div class="inn-preview">
-    <img src="assets/css/images/diamond.jpg" alt="diamond_img"  id="LogoTest-3">
-    <h6>Selected the <b>'diamond accomodations'</b>. This is the top notch stay in our finest selection. Includes a private roof terrase and large living room.</h6>
-    </div>
+
+  
+<!--  Inns  -->
+         <div class="inn-preview active" id="comfortInn">
+          <p>Selected the <b>'comfort accomodations'</b>. It's a nice stay with all the basics you need.</p>
+          <img src="assets/css/images/comfort.jpg" alt="comfort_img" id="LogoTest">
+        </div>
+          
+         <div class="inn-preview" id="deluxeInn">
+          <p>Selected the <b>'deluxe accomodations'</b>. This accomodations include a small living room and a bath with seperated shower.</p>
+           <img src="assets/css/images/deluxe.jpg" alt="deluxe_img" id="LogoTest-2">
+         </div>
+          
+         <div class="inn-preview" id="diamondInn">
+          <p>Selected the <b>'diamond accomodations'</b>. This is the top notch stay in our finest selection. Includes a private roof terrase and large living room.</p>
+          <img src="assets/css/images/diamond.jpg" alt="diamond_img" id="LogoTest-3">
+         </div>
    
     
+ 
 
     </div> 
     </div>
