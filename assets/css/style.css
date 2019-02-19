@@ -29,8 +29,7 @@
 
 /*--------------------------------------------Maps frame*/
 .data-container img{
-  max-height: 600px; 
-  max-width: 500px; 
+   max-height: 800px; 
 }
 
 #map {
@@ -92,7 +91,6 @@ btn-primary{
 
 .input-field1{
     color:white;
-    margin-top: 125px;
     font-family:'Overlock', sans-serif;
     margin-right: 120px; 
 }
@@ -153,8 +151,8 @@ body, html {
 /*--------------------------------------------Button default style*/
 
 #button-a {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     padding: 9px 0;
     margin: 5px;
     border-radius: 50%;
@@ -173,8 +171,8 @@ body, html {
 }
 
 #button-b {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     padding: 9px 0;
     margin: 5px;
     border-radius: 50%;
@@ -193,8 +191,8 @@ body, html {
 }
 
 #button-c {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     padding: 9px 0;
     margin: 5px;
     border-radius: 50%;
@@ -218,11 +216,9 @@ body, html {
     padding: 10px 0;
     border-radius: 12px;
     font-size: 18px;
-    margin-right: 140px;
     color: #000;
-    margin-bottom: 45px; 
+    margin-bottom: 100px; 
     font-weight: bold; 
-    background: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -258,20 +254,14 @@ body, html {
      color:black;
 }
 
-#button2.active{
+.show-inn:active{
      background:#ffad33;
+     color:black;
 }
 
-#button2.focus{
+.show-inn:focus{
      background:#ffad33;
-}
-
-#button.focus{
-     background:red;
-}
-
-#button.active{
-     background:red;
+     color:black;
 }
 
 .startpoint{
@@ -288,18 +278,16 @@ body, html {
 }
 
 .transbox {
-    width: 250px ;
+    width: 240px ;
     color: white;
     background-color: #101010; 
     position: absolute;
     z-index: 99; 
-    top: 0px;
-    right: 20px;
+    top: 5px;
+    right: 15px;
    
     
-    
 }
-
 
 
 .transbox p {
@@ -332,7 +320,8 @@ body, html {
 
 #return a{
     color: grey; 
-    font-size: 10px;
+    font-size: 15px;
+    font-family: 'Overlock';
 
 }
 
@@ -443,13 +432,13 @@ body, html {
 }
 
 #comfortInn {
-  background: green;
+  background: #53c68c;
 }
 #deluxeInn {
-  background: brown;
+  background: #ac3939;
 }
 #diamondInn {
-  background: orange;
+  background: #ff9900;
 }
 
 .show-inn{
@@ -457,4 +446,5 @@ body, html {
     color: white;
     background-color: black; 
     margin: 3px;
+    width: 110px;
 }
