@@ -92,7 +92,7 @@ btn-primary{
 
 .input-field1{
     color:white;
-    margin-top: 150px;
+    margin-top: 125px;
     font-family:'Overlock', sans-serif;
     margin-right: 120px; 
 }
@@ -162,9 +162,9 @@ body, html {
     font-weight: bold; 
     line-height: 7px;
     text-align: center;
-    color: #000;
+    color: white; 
     font-family: 'Overlock', sans-serif;
-    background: #e6e6e6; 
+    background: black; 
     border-color: #e6e6e6;  
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -182,9 +182,9 @@ body, html {
     font-weight: bold; 
     line-height: 7px;
     text-align: center;
-    color: #000;
+    color: white; 
     font-family: 'Overlock', sans-serif;
-    background: #e6e6e6; 
+    background: black; 
     border-color: #e6e6e6;  
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -202,9 +202,9 @@ body, html {
     font-weight: bold; 
     line-height: 7px;
     text-align: center;
-    color: #000;
+    color: white; 
     font-family: 'Overlock', sans-serif;
-    background: #e6e6e6; 
+    background: black; 
     border-color: #e6e6e6;  
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -284,10 +284,11 @@ body, html {
     left: 10px; 
     z-index: 99;
      opacity: 0.8; 
+     margin-left: 20px; 
 }
 
 .transbox {
-    width: 300px ;
+    width: 250px ;
     color: white;
     background-color: #101010; 
     position: absolute;
@@ -433,18 +434,27 @@ body, html {
   max-width: 300px;
   display: none;
 }
+.inn-preview p {
+  margin-left: 20px; 
+}
 
 .inn-preview.active {
   display: block;
 }
 
 #comfortInn {
-  background: lightgreen;
+  background: green;
 }
 #deluxeInn {
-  background: yellow;
+  background: brown;
 }
 #diamondInn {
   background: orange;
 }
+
+.show-inn{
+    border-radius: 12px;
+    color: white;
+    background-color: black; 
+    margin: 3px;
 }
