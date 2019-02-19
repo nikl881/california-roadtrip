@@ -7,6 +7,7 @@ The design is focused on transparency and a simple, attractive usable interface.
 
 
 This project concerns the second official assignment at Code Institute (see more about Code Institute at www.codeinstitute.net). 
+The project concerns a own chosen format and scope, with some inspiration from the 'Holiday Planner' project, like included in the project briefing from Code Insitute.
 
 Niels de Klerk (february, 2019)
 
