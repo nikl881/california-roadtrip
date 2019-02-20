@@ -1,3 +1,4 @@
+
 $(".show-inn").on("click", function() {
 
   $(".inn-preview").removeClass("active");

@@ -275,7 +275,6 @@ body, html {
     z-index: 99; 
     top: 5px;
     right: 15px;
-    height: 400px;
 }
 
 .transbox p {
@@ -402,8 +401,7 @@ body, html {
   display: none;
 }
 .inn-preview p {
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 20px; 
 }
 
 .inn-preview.active {
@@ -424,6 +422,5 @@ body, html {
     border-radius: 12px;
     color: white;
     background-color: black; 
-    margin: 3px;
     width: 110px;
 }

@@ -199,10 +199,11 @@ function initMap() {
   }
 ]
 
-}
+}; 
+
   var map;
   
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions); 
+  map = new google.maps.Map(document.getElementById("map"), mapOptions); 
   directionsDisplay.setMap(map); 
   } 
   
@@ -220,7 +221,6 @@ function initMap() {
     });
     }
     
-    var map;
     
     initMap();
     
@@ -229,17 +229,15 @@ function initMap() {
       
       calcRoute("santa barbara, ca", "san diego, ca");
       
-    })
+    }); 
       
-        $("#button-a").on("click", () => {
+     $("#button-a").on("click", () => {
       console.log("clicked...");
       
       calcRoute("san diego, ca", "los angeles, ca");
       
       
     }); 
-    
-    var map;
     
      initMap();
     
@@ -248,13 +246,12 @@ function initMap() {
       
       calcRoute("los angeles, ca", "san diego, ca");
       
-    })
+    }); 
       
         $("#button-b").on("click", () => {
       console.log("clicked...");
       
       calcRoute("san diego, ca", "los angeles, ca");
-      
     
     var map;
      initMap();
@@ -264,17 +261,14 @@ function initMap() {
       
       calcRoute("los angeles, ca", "san diego, ca");
       
-    })
+    }); 
       
-        $("#button-c").on("click", () => {
+      $("#button-c").on("click", () => {
       console.log("clicked...");
       
       calcRoute("beverly hills, ca", "lake forest, ca");  
       
-    
     }); 
     
     });    
-    
-    
 }); 
