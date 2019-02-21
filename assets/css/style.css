@@ -265,6 +265,7 @@ body, html {
     z-index: 99;
      opacity: 0.8; 
      margin-left: 20px; 
+     display: block; 
 }
 
 .transbox {
@@ -322,6 +323,7 @@ body, html {
 .testtuinhuis {
      font-size:15px; 
       font-family: 'Overlock', sans-serif;
+      
 } 
 
 .logo-accom1{
@@ -384,13 +386,8 @@ body, html {
 
  /*--------------------------------------------Button event & active classes*/
 
-.inn-preview{
- display: none; 
-}
 
-.inn-preview.active{
- display: block; 
-}
+
 
 @media screen and (max-width:1000px) {
     .bg-cover {display:none}
@@ -407,6 +404,7 @@ body, html {
 .inn-preview.active {
   display: block;
 }
+
 
 #comfortInn {
   background: #53c68c;

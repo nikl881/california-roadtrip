@@ -1,6 +1,6 @@
 describe('click on button', function () {
 
-      it('shows changes to the inn-menu image via selector when button is clicked', function () {
+      it('shows changes to inn-menu images via selector when button clicked', function () {
 
           var menuIconClicked, menuChangesWhenClicked = false;  
  

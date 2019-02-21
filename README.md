@@ -132,6 +132,20 @@ Below the main features described that are basic functions as currently availabl
 * UX/UI - 
     * Verify that the navigation and google maps show the selected information.
     * Verify the splashscreen (index.html) on different screensizes (regarding user experience and clarity of design).
+    
+
+## Autmated unit testing
+
+In order to guarantee the proper functioning of the software, automatic testing has been been added into this project. 
+This paragraph contains a short explanation of the test setup, test code and explain the idea behind the testing of this code.
+
+The following test setup has been used: 
+
+Test runner 
+The 'Test Runner' will execute the tetst in order to summarize the results.  The choice is made to use 'Jasmine' as a testrunner. 
+Assertion Libary 
+The 'Assertion Libary' is used to define testing logic and conditions.  The choice is made to use 'Jasmine' as a assertion libary. 
+
 
 ## Issuelist 
 
@@ -141,11 +155,11 @@ Below the main features described that are basic functions as currently availabl
 | 2	| Google Places and Maps API wont load routes  | Debugging JS file  |
 | 3	| Favicon won't load      | Added correct references  |
 | 4 | W3C error about deprecated form styling   | Debugging form styling  |
-| 5 | Console Error Javascript  |  ? n/a |
-| 6 | Console Error Javascript  |  ? n/a |
-| 7 | Toggle won't start with hidden property | Added display none and display block properties  |
-| 8 | Images not fully responsive | Rebuild Bootstrap columns |
-| 9 | Maps won't show desired postion| Changed zoomlevel in scriptfile|
+| 5 | Console Error Javascript  |  Changed postion of js and jquery scripts |
+| 6 | Toggle won't start with hidden property | Added display none and display block properties  |
+| 7 | Images not fully responsive | Rebuild Bootstrap columns |
+| 8 | Maps won't show desired postion| Changed zoomlevel in scriptfile|
+| 9 | Jasmine Unit test error: "No specs found"| .... |
 
 ## Work method 
 
