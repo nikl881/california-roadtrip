@@ -146,7 +146,7 @@ Below the main features described that are basic functions as currently availabl
     Assertion Libary 
     The 'Assertion Libary' is used to define testing logic and conditions.  The choice is made to use 'Jasmine' as a assertion libary. 
 
-The Jasmine testpage, with automatic unit test results, are available at: https://nikl881.github.io/california-roadtrip/test.html
+The Jasmine testpage, with automatic unit test results, are available at: https://california-roadtrip-nikl.c9users.io/test.html
 
 
 

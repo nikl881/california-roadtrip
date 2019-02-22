@@ -1,6 +1,7 @@
-
 var directionsService = new google.maps.DirectionsService();
 var directionsDisplay = new google.maps.DirectionsRenderer();
+
+
 
 function initMap() {
   var la = new google.maps.LatLng(34.070938, -118.393768);

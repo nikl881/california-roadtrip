@@ -1,3 +1,4 @@
+
 describe("initMap", function() {
   it("Initialize the Google Map (maps.js)", () => {
      spyOn(google.maps, "Map"); 
