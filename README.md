@@ -7,7 +7,7 @@ The design is focused on transparency and a simple, attractive usable interface.
 
 
 This project concerns the second official assignment at Code Institute (see more about Code Institute at www.codeinstitute.net). 
-The project concerns a own chosen format and scope, with some inspiration from the 'Holiday Planner' project, like included in the project briefing from Code Insitute.
+The project concerns a own chosen format and scope, with some inspiration from the 'Holiday Planner', like described in the projectbriefing from Code Insitute.
 
 Niels de Klerk (february, 2019)
 
@@ -19,9 +19,9 @@ usually a user or customer of the system. In a random order a list of important 
 
 *	"I want to see directly what kind of website I’m looking at"; 
 *	"I want to see what the main goal of the website is (defined by differtend indicators)"; 
-*	"I want to easely use the mechanics of the website and see what the result is of clicking trough the highlighted content or event handling options"; 
-*	"I want to possibility to easely return to a previous state within the workflow of the website";
-*	"I want to see marks, highlighted buttons or other indicators that can show the results of single or multiple actions that i take on the website". 
+*	"I want to easely use the mechanics of the website and see what the result is of clicking trough the highlighted content or event handling buttons, content, etc."; 
+*	"I want the possibility to easely return to a previous state of the website (workflow of the website)";
+*	"I want to see marks, highlighted buttons or other indicators that can show the results of single or multiple actions that i undertake". 
 
 
 In the following link additional information concerning the UX/UI design can be found. 
@@ -31,7 +31,7 @@ https://drive.google.com/drive/folders/1Wcb2VyqjEw2pfl83DB4fwjMy4K5tzQ6Z
 
 ## Features
 
-Existing Features (week 6 - 2019) 
+Existing Features (week 7 - 2019) 
 
 *	Main feature 1 - A splited SPI with a left frame for data, input fields, event handling and images, and on the right a rendered map in the specific UX/UI design of the project; 
 *	Main feature 2 - Integrated Google Places API, Google Maps JavaScript API, Directions API, Maps Embed API to load specific routes on the map; 
@@ -44,7 +44,7 @@ Existing Features (week 6 - 2019)
 
 Features Left to Implement (in a random order listed below)
 
-*	Remove 'standard' Google zoomlevel options that automaticly render by using the Maps API; 
+*	Remove 'standard' Google zoomlevel optionbar that automaticly render by using the Maps API; 
 *	Add customer login in de main navigation bar for (existing) customers (basic portal functionality);  
 *	Add customer stories as an extra section on the website; 
 *	Add Google analytics to generate relevant data;  
@@ -146,7 +146,7 @@ Below the main features described that are basic functions as currently availabl
     Assertion Libary 
     The 'Assertion Libary' is used to define testing logic and conditions.  The choice is made to use 'Jasmine' as a assertion libary. 
 
-**   The Jasmine testpage, with automatic unit test results, are available at: https://california-roadtrip-nikl.c9users.io/test.html
+The Jasmine testpage, with automatic unit test results, are available at: https://california-roadtrip-nikl.c9users.io/test.html
 
 
 
@@ -155,12 +155,12 @@ Below the main features described that are basic functions as currently availabl
 | Issue number    | Description     | Implemented Solution  |
 | ------------- |:-------------:| -----:|
 | 1	| Buttons load accomodation image but not the text | encapsulated content in same div |
-| 2	| Google Places and Maps API wont load routes  | Debugging JS file  |
-| 3	| Favicon won't load      | Added correct references  |
+| 2	| Google Places and Maps API wont load routes  | Debugging JS file combined with developer helppage of 'Google Developers' |
+| 3	| Favicon won't load      | Added correct references to the link  |
 | 4 | W3C error about deprecated form styling   | Debugging form styling  |
 | 5 | Console Error Javascript  |  Changed postion of js and jquery scripts |
 | 6 | Toggle won't start with hidden property | Added display none and display block properties  |
-| 7 | Images not fully responsive | Rebuild Bootstrap columns |
+| 7 | Images not fully responsive on all screensizes | Rebuild Bootstrap columns |
 | 8 | Maps won't show desired postion| Changed zoomlevel in scriptfile|
 | 9 | Jasmine Unit test error: "No specs found"| Removed the InitMap function that was encapsulated/nested inside a other part of the maps.js code  |
 | 10 | Jasmine Unit test error: "No specs found"| Added #maps (ElementbyID) class to the jasmine .html testpage  |
@@ -204,9 +204,9 @@ This README file is based on the Code Institute template.
 ## Acknowledgements
 
 I would like to thank Anthony Ngene (https://github.com/tonymontaro) as a supervisor and mentor in the development of this project. 
-Thanks to his feedback, I have been given the correct insights to achieve this result.
+Thanks to his feedback and involvement, I have been given the correct insights to achieve this result.
 
-I learned some fundamentals about integrating and using Google APIs (including Google Maps Rendering, Google Dashboard, etc.). 
+I learned fundamentals about integrating and using Google APIs (including Google Maps Rendering, Google Dashboard, etc.). 
 This project was just a introduction,  I definitely want to learn more about this subject in the future. 
 In addition, I gained  basic knowledge about the use (and power) of Jquery and I tried to make a step in the more complex world of JavaScript.
 

@@ -276,11 +276,14 @@ body, html {
     z-index: 99; 
     top: 5px;
     right: 15px;
-}
+    margin-top: 60px; 
+    opacity: 0.9; 
+}    
 
 .transbox p {
  font-family: 'Overlock';
- margin: 5px
+ margin-right: 20px;
+ margin-bottom: 10px; 
 
 }
 
