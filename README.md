@@ -134,20 +134,16 @@ Below the main features described that are basic functions as currently availabl
     * Verify the splashscreen (index.html) on different screensizes (regarding user experience and clarity of design).
     
 
-## Autmated unit testing with Jasmine
+## Autmated unit testing using Jasmine
 
 *   In order to guarantee the proper functioning of the software, automatic testing has been been added into this project. 
     This paragraph contains a short explanation of the test setup, test code and explain the idea behind the testing of this code.
 
-    The following test setup has been used: 
-
-*   Test runner 
-    The 'Test Runner' will execute the tetst in order to summarize the results.  The choice is made to use 'Jasmine' as a testrunner. 
-    Assertion Libary 
-    The 'Assertion Libary' is used to define testing logic and conditions.  The choice is made to use 'Jasmine' as a assertion libary. 
-
-The Jasmine testpage, with automatic unit test results, are available at: https://california-roadtrip-nikl.c9users.io/test.html
-
+    The following test setup has been used
+    The 'Test Runner' will execute the tetst in order to summarize the results. 
+    The 'Assertion Libary' is used to define testing logic and conditions. To check the quility of the test, the 'red-green refactor' method has been used to verify the quality of the testscript.
+ 
+The Jasmine testpage, with automatic unit testresults, are available at: https://california-roadtrip-nikl.c9users.io/test.html
 
 
 ## Issuelist 
@@ -166,6 +162,7 @@ The Jasmine testpage, with automatic unit test results, are available at: https:
 | 10 | Jasmine Unit test error: "No specs found"| Added #maps (ElementbyID) class to the jasmine .html testpage  |
 | 11 | Jasmine Unit test error: "No specs found"| Changed the target directory to "Map" within testcode  |
 | 12 | Jasmine Unit test error: "No specs found"| Added spies to specific code (used: expect(foo.setBar).toHaveBeenCalledWith(123)) |
+| 13 | Jasmine Unit test error:  ReferenceError: Can't find variable: google | Debugged with addition API script reference to google API within testpage.html |
 
 ## Work method 
 
