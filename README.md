@@ -188,7 +188,7 @@ The way the Git process is used is as follows:
 2. Staged the files in the stage area.
 3. Perform push to Github to renew the working environment. (Git directory / repository).
 
-*   The website is available at the following link: https://nikl881.github.io/california_roadtrip/index.html. 
+*   The website is available at the following link: https://nikl881.github.io/california-roadtrip/
 *   After implementing the remaining features listed above the site will be live at: www.nortstack.com/portfolio/california_roadtrip/index.html. 
 
 
