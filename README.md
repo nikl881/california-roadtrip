@@ -19,7 +19,7 @@ usually a user or customer of the system. In a random order a list of important 
 
 *	"I want to see directly what kind of website I’m looking at"; 
 *	"I want to see what the main goal of the website is (defined by differtend indicators)"; 
-*	"I want to easely use the mechanics of the website and see what the result is of clicking trough the highlighted content or event handling buttons, content, etc."; 
+*	"I want to easely use the mechanics of the website and see what the result is of clicking trough the highlighted content or event handling buttons, etc."; 
 *	"I want the possibility to easely return to a previous state of the website (workflow of the website)";
 *	"I want to see marks, highlighted buttons or other indicators that can show the results of single or multiple actions that i undertake". 
 
@@ -154,7 +154,7 @@ The Jasmine testpage, with automatic unit test results, are available at: https:
 
 | Issue number    | Description     | Implemented Solution  |
 | ------------- |:-------------:| -----:|
-| 1	| Buttons load accomodation image but not the text | encapsulated content in same div |
+| 1	| Buttons loaded accomodation image, but not the expected text | encapsulated content in same div |
 | 2	| Google Places and Maps API wont load routes  | Debugging JS file combined with developer helppage of 'Google Developers' |
 | 3	| Favicon won't load      | Added correct references to the link  |
 | 4 | W3C error about deprecated form styling   | Debugging form styling  |
