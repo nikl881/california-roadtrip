@@ -12,9 +12,7 @@
 .col-md-6{
   height: 800px;
   background-color: black; 
- 
 }
-
 .col-md-6{
   height: 800px;
   background-color: black; 
@@ -389,11 +387,8 @@ body, html {
 
  /*--------------------------------------------Button event & active classes*/
 
-
-
-
 @media screen and (max-width:1000px) {
-    .bg-cover {display:none}
+    .data-container img {display:none}
 }
 
 .inn-preview {
