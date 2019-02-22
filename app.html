@@ -2,131 +2,126 @@
 <html lang="en">
 
 <head>
-    
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    
-    
-    
+
+
     <title>California roadtrip</title>
-    <link rel="shortcut icon" type="image/png" href="assets/css/images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/css/images/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
 
-    </head>
-    <body>
-  
+
+</head>
+
+<body>
+
     <div class="data-container">
-    <div class="col-md-3">
-    <div class="main-logo">
-    <img src="assets/css/images/nortway2.png" alt="main logo">
-    </div>  
-    
-      <img src="assets/css/images/bg_nw3.png" alt="background"> 
-      </div>
-      </div>
+        <div class="col-md-3">
+            <div class="main-logo">
+                <img src="assets/css/images/nortway2.png" alt="main logo">
+            </div>
 
-    <div class="col-md-3">
-  <div class="input-field1">
-  <p class="test1">
-  <h1>California Roadtrip</h1>
-  <p>This trip is based on highlights of California.
-  A indicated route can be selected based on your preferences.
-  Select your startpoint below. </p>
-  
-  
-  <button id="button-a">Beach</button>
-  <button id="button-b">City</button>
-  <button id="button-c">Residance</button>
-  
-  </div>
-  
-  <div class="input-field2">
-
-      <h2>Choose your style</h2>
-        <p>We have selected three different
-        locations and accomodations. Choose what kind of accomodation will suit you best.</p>
-     
-  
-      <div id="button2">
-    
-      <input type="button" id="comfort"   class="show-inn" value="Comfort ">      
-      <input type="button" id="deluxe"  class="show-inn" value="Deluxe">      
-      <input type="button" id="diamond"  class="show-inn" value="Diamond"> 
-      
-    
+            <img src="assets/css/images/bg_nw3.png" alt="background">
         </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="input-field1">
+            <p class="test1">
+                <h1>California Roadtrip</h1>
+                <p>This trip is based on highlights of California. A indicated route can be selected based on your preferences. Select your startpoint below. </p>
+
+
+                <button id="button-a">Beach</button>
+                <button id="button-b">City</button>
+                <button id="button-c">Residance</button>
+
+        </div>
+
+        <div class="input-field2">
+
+            <h2>Choose your style</h2>
+            <p>We have selected three different locations and accomodations. Choose what kind of accomodation will suit you best.</p>
+
+
+            <div id="button2">
+
+                <input type="button" id="comfort" class="show-inn" value="Comfort ">
+                <input type="button" id="deluxe" class="show-inn" value="Deluxe">
+                <input type="button" id="diamond" class="show-inn" value="Diamond">
+
+
+            </div>
         </div>
     </div>
 
     <div class="mapgeneral">
-    <div class="col-md-6">
-
-       
-        <div class="transbox">
-            
-            
-            <div class="poi-img inn-preview active">  
-                <img src="assets/css/images/accomadation.png"  alt="accomodation">
-        
-           <h3><b>Preview your stay!</b></h3>
-           <p>Here you can see a preview of the finest selected locations in California on your roadtrip.
-           Start first with the 'route selector' and then choose your stay using the 'Style selector' Happy holiday!.</p>
-  
-</div>
+        <div class="col-md-6">
 
 
-    <div class="tuinhuis" id="tuinhuis">
-    
+            <div class="transbox">
 
-         <div class="inn-preview" id="comfortInn">
-            <img src="assets/css/images/comfort.jpg" alt="comfort_img" id="LogoTest">
-          <p>Selected the <b>'comfort accomodations'</b>. It's a nice stay with all the basics you need. The comfort accomodations are offered to suit every traveler's budget</p>
-         
+
+                <div class="poi-img inn-preview active">
+                    <img src="assets/css/images/accomadation.png" alt="accomodation">
+
+                    <h3><b>Preview your stay!</b></h3>
+                    <p>Here you can see a preview of the finest selected locations in California on your roadtrip. Start first with the 'route selector' and then choose your stay using the 'Style selector' Happy holiday!.</p>
+
+                </div>
+
+
+                <div class="tuinhuis" id="tuinhuis">
+
+
+                    <div class="inn-preview" id="comfortInn">
+                        <img src="assets/css/images/comfort.jpg" alt="comfort_img" id="LogoTest">
+                        <p>Selected the <b>'comfort accomodations'</b>. It's a nice stay with all the basics you need. The comfort accomodations are offered to suit every traveler's budget</p>
+
+                    </div>
+
+                    <div class="inn-preview" id="deluxeInn">
+                        <img src="assets/css/images/deluxe.jpg" alt="deluxe_img" id="LogoTest-2">
+                        <p>Selected the <b>'deluxe accomodations'</b>. This accomodations include a small living room and a bath with seperated shower.</p>
+
+                    </div>
+
+                    <div class="inn-preview" id="diamondInn">
+                        <img src="assets/css/images/diamond.jpg" alt="diamond_img" id="LogoTest-3">
+                        <p>Selected the <b>'diamond accomodations'</b>. This is the top notch stay in our finest selection. Includes a private roof terrase and large living room.</p>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="map">
+
+            </div>
         </div>
-          
-         <div class="inn-preview" id="deluxeInn">
-            <img src="assets/css/images/deluxe.jpg" alt="deluxe_img" id="LogoTest-2">
-          <p>Selected the <b>'deluxe accomodations'</b>. This accomodations include a small living room and a bath with seperated shower.</p>
-           
-         </div>
-          
-         <div class="inn-preview" id="diamondInn">
-            <img src="assets/css/images/diamond.jpg" alt="diamond_img" id="LogoTest-3">
-          <p>Selected the <b>'diamond accomodations'</b>. This is the top notch stay in our finest selection. Includes a private roof terrase and large living room.</p>
-          
-         </div>
-   
+    </div>
 
-    </div> 
-    </div>
-    <div id="map">
-        
-    </div>
-    </div> 
-    </div>
-   
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaqH60ocg-PUI8aZ9Rkad5RgJr-MaEB_M"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="assets/js/maps.js"></script>
-    <script src="assets/js/buttonscript.js"></script> 
-    
-    
-    
-    
-    
+    <script src="assets/js/buttonscript.js"></script>
+
+
+
+
     <div class="col-md-12" style="background-color:black;">
-     <div id="return">
-    <a class="footer-button" href="index.html" role="button">return here to the startpage</a>
-     </div>
-      <a href="https://github.com/nikl881">
+        <div id="return">
+            <a class="footer-button" href="index.html" role="button">return here to the startpage</a>
+        </div>
+        <a href="https://github.com/nikl881">
       <img  alt="Footer" src="assets/css/images/footer_nw.png" width="380" height="96">
         </a>
-      </div>
-    
-    </body>
-    
+    </div>
+
+</body>
+
 </html>
