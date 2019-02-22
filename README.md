@@ -146,7 +146,7 @@ Below the main features described that are basic functions as currently availabl
     Assertion Libary 
     The 'Assertion Libary' is used to define testing logic and conditions.  The choice is made to use 'Jasmine' as a assertion libary. 
 
-The Jasmine testpage, with automatic unit test results, are available at: https://california-roadtrip-nikl.c9users.io/test.html
+The Jasmine testpage, with automatic unit test results, are available at: https://nikl881.github.io/california-roadtrip/test.html
 
 
 
@@ -188,8 +188,8 @@ The way the Git process is used is as follows:
 2. Staged the files in the stage area.
 3. Perform push to Github to renew the working environment. (Git directory / repository).
 
-The website is now live in a testing environment, available at the following link: https://nikl881.github.io/california_roadtrip/index.html. 
-After implementing the remaining features listed above the site will be live at: www.nortstack.com/portfolio/california_roadtrip/index.html. 
+*   The website is available at the following link: https://nikl881.github.io/california_roadtrip/index.html. 
+*   After implementing the remaining features listed above the site will be live at: www.nortstack.com/portfolio/california_roadtrip/index.html. 
 
 
 ## Credits
