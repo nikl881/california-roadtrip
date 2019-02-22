@@ -20,6 +20,7 @@ function initMap() {
 
 
 
+
 $(document).ready(function() {
 
 
@@ -36,6 +37,7 @@ $(document).ready(function() {
       }
     });
   }
+
 
 
   initMap();
@@ -88,9 +90,6 @@ $(document).ready(function() {
 
   });
 });
-
-
-
 
 
 var styles = [{
