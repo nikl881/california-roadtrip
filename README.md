@@ -1,4 +1,4 @@
-![Welcome](https://california-roadtrip-nikl.c9users.io/assets/css/images/readme.png)
+![Welcome](https://drive.google.com/file/d/1dfgUgqHTKaMX2Cbx9DagWdkaUeSJJVOE/view)
 
 This is the readme file of a Single Page Application, or Single Page Interface (from now on abbreviated to SPI), called 'California Roadtrip'. 
 This webapplication provides the users a set of useful information to prepare their holiday roadtrip to the US state of California. 
@@ -143,7 +143,7 @@ Below the main features described that are basic functions as currently availabl
     The 'Test Runner' will execute the tetst in order to summarize the results. 
     The 'Assertion Libary' is used to define testing logic and conditions. To check the quility of the test, the 'red-green refactor' method has been used to verify the quality of the testscript.
  
-The Jasmine testpage, with automatic unit testresults, are available at: https://california-roadtrip-nikl.c9users.io/test.html
+The Jasmine testpage, with automatic unit testresults, are available at: https://nikl881.github.io/california-roadtrip/test.html 
 
 
 ## Issuelist 
@@ -171,7 +171,7 @@ actions within the project; initializing the project until the completion. The t
 
 Below a screenshot taken halfway of the realization.
 
-![Trello screenshot](https://california-roadtrip-nikl.c9users.io/assets/css/images/trello.png)
+![Trello screenshot](https://california-roadtrip-nikl.c9users.io/assets/css/images/trello.png) 
 
 ## Deployment
 
