@@ -27,7 +27,7 @@ usually a user or customer of the system. In a random order a list of important 
 In the following link additional information concerning the UX/UI design can be found. 
 This includes wireframes and mockups and basic images for the branddesign: 
 
-https://drive.google.com/drive/folders/1Wcb2VyqjEw2pfl83DB4fwjMy4K5tzQ6Z
+https://drive.google.com/open?id=1Wcb2VyqjEw2pfl83DB4fwjMy4K5tzQ6Z
 
 ## Features
 
