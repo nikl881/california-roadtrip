@@ -1,4 +1,4 @@
-![Welcome](https://drive.google.com/file/d/1dfgUgqHTKaMX2Cbx9DagWdkaUeSJJVOE/view)
+![Welcome](https://raw.githubusercontent.com/nikl881/california-roadtrip/master/assets/css/images/img_readme.jpg)
 
 This is the readme file of a Single Page Application, or Single Page Interface (from now on abbreviated to SPI), called 'California Roadtrip'. 
 This webapplication provides the users a set of useful information to prepare their holiday roadtrip to the US state of California. 
@@ -171,7 +171,7 @@ actions within the project; initializing the project until the completion. The t
 
 Below a screenshot taken halfway of the realization.
 
-![Trello screenshot](https://california-roadtrip-nikl.c9users.io/assets/css/images/trello.png) 
+![Trello screenshot](https://raw.githubusercontent.com/nikl881/california-roadtrip/master/assets/css/images/trello.png) 
 
 ## Deployment
 
