@@ -136,12 +136,12 @@ Below the main features described that are basic functions as currently availabl
 
 ## Autmated unit testing using Jasmine
 
-*   In order to guarantee the proper functioning of the software, automatic testing has been been added into this project. 
-    This paragraph contains a short explanation of the test setup, test code and explain the idea behind the testing of this code.
+In order to guarantee the proper functioning of the software, automatic testing has been been added into this project. 
+This paragraph contains a short explanation of the test setup, test code and explain the idea behind the testing of this code.
 
-    The following test setup has been used
-    The 'Test Runner' will execute the tetst in order to summarize the results. 
-    The 'Assertion Libary' is used to define testing logic and conditions. To check the quility of the test, the 'red-green refactor' method has been used to verify the quality of the testscript.
+The following test setup has been used
+The 'Test Runner' will execute the tetst in order to summarize the results. 
+The 'Assertion Libary' is used to define testing logic and conditions and to verify the quality of the testscript.
  
 The Jasmine testpage, with automatic unit testresults, are available at: https://nikl881.github.io/california-roadtrip/test.html 
 
